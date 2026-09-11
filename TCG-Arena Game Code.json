@@ -1,0 +1,199 @@
+{
+  "name": "Blood and Salt: Siege",
+  "deckBuilding": {
+    "mainFilters": ["type", "firepower", "armor", "speed"],
+    "formats": [
+      { "title": "Constructed", "id": "WTS", "gameplay": "Searchanddestroy", "deckRuleset": "Constructed" }
+    ]
+  },
+  "deckRulesets": {
+    "Constructed": {
+      "assets": { "min": 16, "max": 16, "maxPerCard": 1 },
+      "sideboard": [
+        { "rosterselect": "Mercenary", "min": 8, "max": 8 }
+      ]
+    }
+  },
+  "gameplay": {
+    "Searchanddestroy": {
+      "mulligan": { 
+        "startingHandSize": 8,
+        "mulliganCount": {"max": 8},
+        "mulliganCycle": {
+          "steps": ["toCasualtyPile"],
+          "selectionRange": {"min": 8 }
+        }
+      },
+      "chooseAnotherStartingPlayer": true,
+      "boardCardSelection":
+        { "category": "Map", "min": 0, "max": 1, "unselectedDestination": "ExileHidden" },
+      "teams": {
+        "placement": "sameSide",
+        "sharedPlayerCounter": true
+      },
+      "initialBoardSetup": [
+          {"drawFromTop": "assets", "count": 16, "destination": "hand" }
+        ],
+      "beforeGameStart": {
+        "boardCattegoriesInSideboard": ["roster"],
+        "boardCardSelection": [
+          {"category": "Mercenary", "min": 5, "max": 5, "unselectedDestination": "ExileHidden" }
+        ]
+      },
+      "draggableTokens": [
+        { "id": "ArmorDmgCounter", "name": "Armor Damage Counter", "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/644f19dd8588c5f8aa1f5939436b7c96836784d7/Card%20Gallery/Armor%20Dmg%20Token.png" },
+        { "id": "AbilityUseCounter", "name": "Ability Use Counter", "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/109ff7e0d648bead2c7baa2b773a5b461ea5ba43/Card%20Gallery/Ability%20Counter%20Token.png" }
+      ],
+      "sharedtickpool": [60],
+      "cardRotation": [90],
+      "newTurn": { 
+        "drawOnStart": false,
+        "drawPerTurn": 0,
+        "sharedTurn": true,
+        "turnOrder": "teamsAlternating",
+        "firstPlayerTokenName": "Initiative"
+      },
+      "sections": {
+        "sharedZone":{
+          "height": 14,
+          "layout": {
+            "direction": "row",
+            "content": [
+              {"section": "Lane1Walls"},
+              {"section": "Lane2Walls"},
+              {"section": "Lane3Walls"}
+            ]
+          }
+        },
+        "layout": {
+          "direction": "row",
+          "content": [
+            { "section": "IntelZone"},
+            { "Section": "Lane1"},
+            { "Section": "Lane2"},
+            { "Section": "Lane3"},
+            { "Section": "DefusesZone"},
+            { 
+              "direction": "row",
+              "content": [ 
+                { "section": "InitiationSlot"},
+                { "section": "FirstReactionSlot"},
+                { "section": "SecondReactionSlot"},
+                {
+                  "dirction": "row",
+                  "content": [
+                    {"section": "CasualtyPile"}
+                  ]
+                }
+              ]
+          }
+          ]
+        },
+        "sectionsDict": {
+          "SharedTickPool": {
+            "type": "custom",
+            "onStart": {
+              "blueprint": {
+                "type": "div",
+                "children": [
+                  { "type": "counter", "children": "input-number", "defaultValue": { "ticks": 60 }}
+                ]
+              }
+            },
+            "onClick": { "children": "input-number", "newValue": "${game.data.SharedTickPool.ticks - 1}" },
+            "isShared": true,
+            "blueprint": {
+              "type": "div",
+              "children": [
+                { 
+                  "type": "game.data.SharedTickPool.ticks",
+                  "style": {
+                    "color": { "condition": "game.data.SharedTickPool.ticks == 0", "ifTrue": "red", "ifFalse": "inherit" }
+                  }
+                }
+              ]
+            }
+          },
+          "sharedZone": { 
+            "isHidden": "no",
+            "height": 14,
+            "alignment": "CENTER",
+            "displayedTitle": "Map Walls"
+          },
+          "Lane1Walls": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "START",
+            "displayedTitle": "Lane 1"
+          },
+          "Lane2Walls": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Lane 2"
+          },
+          "Lane3Walls": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "END",
+            "displayedTitle": "Lane 3"
+          },
+          "IntelZone": { 
+            "isHidden": "no",
+            "height": 42,
+            "alignment": "START",
+            "displayedTitle": "Intel Zone"
+          },
+          "Lane1": { 
+            "isHidden": "no",
+            "height": 42,
+            "alignment": "START",
+            "displayedTitle": "Lane 1"
+          },
+          "Lane2": { 
+            "isHidden": "no",
+            "height": 42,
+            "alignment": "CENTER",
+            "displayedTitle": "Lane 2"
+          },
+          "Lane3": { 
+            "isHidden": "no",
+            "height": 42,
+            "alignment": "END",
+            "displayedTitle": "Lane 3"
+          },
+          "DefusesZone": { 
+            "isHidden": "no",
+            "height": 42,
+            "alignment": "END",
+            "displayedTitle": "Defuses"
+          },
+          "InitiationSlot": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "START",
+            "displayedTitle": "Initiation Slot"
+          },
+          "FirstReactionSlot": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Reaction Slot"
+          },
+          "SecondReactionSlot": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "END",
+            "displayedTitle": "Reaction Slot"
+          },
+          "CasualtyPile": { 
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "START",
+            "displayedTitle": "Casualty Pile"
+          }
+        }
+      }
+    }
+  }
+}
