@@ -9,7 +9,7 @@
         "firepower": 2,
         "armor": 3,
         "speed": 1,
-        "image": "Card Gallery/S22DAnchor_Medic.png",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/main/Card%20Gallery/S22DAnchor_Medic.png",
         "isHorizontal": false
       }
     },
