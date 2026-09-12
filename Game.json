@@ -303,10 +303,10 @@
             }
         },
     "defaultRessources": {
-        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/decks.json"
+        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
     },
     "cards": {
-        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/cards.json",
+        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
         "cardBack": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/b098a630b492e9af206a81546e96747859c02ff8/Card%20Gallery/__Card%20Back_Mercenaries.png"
     }
 }
