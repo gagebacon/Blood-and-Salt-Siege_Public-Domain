@@ -1,0 +1,1694 @@
+{
+  "WTS001": {
+    "id": "WTS001",
+    "face": {
+      "front": {
+        "name": "Medic",
+        "type": "Mercenary",
+        "class": "Anchor",
+        "firepower": 2,
+        "armor": 3,
+        "speed": 1,
+        "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22DAnchor_Medic.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Medic",
+    "type": "Mercenary",
+    "class": "Anchor",
+    "firepower": 2,
+    "armor": 3, 
+    "speed": 1,
+    "set": "WTS",
+    "loadoutoption1": "Barbed Wire",
+    "loadoutoption2": "3S Stim Kit",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS002": {
+    "id": "WTS002",
+    "face": {
+      "front": {
+        "name": "Tiptoe",
+        "type": "Mercenary",
+        "class": "Anchor",
+        "firepower": 2,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DAnchor_Tiptoe.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tiptoe",
+    "type": "Mercenary",
+    "class": "Anchor",
+    "firepower": 2,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "loadoutoption1": "Guard Hound",
+    "loadoutoption2": "Impact Grenade",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "EXPLOSIVES"
+    ],
+    "isToken": false
+  },
+  "WTS003": {
+    "id": "WTS003",
+    "face": {
+      "front": {
+        "name": "Thermal",
+        "type": "Mercenary",
+        "class": "Anchor",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DAnchor_Thermal.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Thermal",
+    "type": "Mercenary",
+    "class": "Anchor",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Smoke Grenade",
+    "loadoutoption2": "Bulletproof Camera",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS004": {
+    "id": "WTS004",
+    "face": {
+      "front": {
+        "name": "Smog",
+        "type": "Mercenary",
+        "class": "Anchor",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DAnchor_Smog.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Smog",
+    "type": "Mercenary",
+    "class": "Anchor",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Portable Shield",
+    "loadoutoption2": "Barbed Wire",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "PROTECTOR"
+    ],
+    "isToken": false
+  },
+  "WTS005": {
+    "id": "WTS005",
+    "face": {
+      "front": {
+        "name": "Barricade",
+        "type": "Mercenary",
+        "class": "Roamer",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DRoamer_Barricade.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Barricade",
+    "type": "Mercenary",
+    "class": "Roamer",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Portable Shield",
+    "loadoutoption2": "Rapid Reload Mags",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS006": {
+    "id": "WTS006",
+    "face": {
+      "front": {
+        "name": "Cryo",
+        "type": "Mercenary",
+        "class": "Roamer",
+        "firepower": 1,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DRoamer_Cryo.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cryo",
+    "type": "Mercenary",
+    "class": "Roamer",
+    "firepower": 1,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "loadoutoption1": "Sidearm",
+    "loadoutoption2": "Impact Grenade",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS007": {
+    "id": "WTS007",
+    "face": {
+      "front": {
+        "name": "Ghost",
+        "type": "Mercenary",
+        "class": "Roamer",
+        "firepower": 2,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DRoamer_Ghost.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ghost",
+    "type": "Mercenary",
+    "class": "Roamer",
+    "firepower": 2,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "loadoutoption1": "Impact Grenade",
+    "loadoutoption2": "Sidearm",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "FLANKER",
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS008": {
+    "id": "WTS008",
+    "face": {
+      "front": {
+        "name": "Packhound + Brutus",
+        "type": "Mercenary",
+        "class": "Roamer",
+        "firepower": 1,
+        "armor": 1,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DRoamer_Packhound.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Packhound + Brutus",
+    "type": "Mercenary",
+    "class": "Roamer",
+    "firepower": 1,
+    "armor": 1, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Attack Hound",
+    "loadoutoption2": "Guard Hound",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "K9 UNIT"
+    ],
+    "isToken": false
+  },
+  "WTS009": {
+    "id": "WTS009",
+    "face": {
+      "front": {
+        "name": "Knight",
+        "type": "Mercenary",
+        "class": "Defender Support",
+        "firepower": 1,
+        "armor": 3,
+        "speed": 1,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DSupport_Knight.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Knight",
+    "type": "Mercenary",
+    "class": "Defender Support",
+    "firepower": 1,
+    "armor": 3, 
+    "speed": 1,
+    "set": "WTS",
+    "loadoutoption1": "Portable Shield",
+    "loadoutoption2": "Flashbang",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "PROTECTOR"
+    ],
+    "isToken": false
+  },
+  "WTS010": {
+    "id": "WTS010",
+    "face": {
+      "front": {
+        "name": "Null",
+        "type": "Mercenary",
+        "class": "Defender Support",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DSupport_Null.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Null",
+    "type": "Mercenary",
+    "class": "Defender Support",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Shrappak",
+    "loadoutoption2": "Guard Hound",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS011": {
+    "id": "WTS011",
+    "face": {
+      "front": {
+        "name": "Patches",
+        "type": "Mercenary",
+        "class": "Defender Support",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DSupport_Patches.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Patches",
+    "type": "Mercenary",
+    "class": "Defender Support",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Impact Grenade",
+    "loadoutoption2": "Barbed Wire",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS012": {
+    "id": "WTS012",
+    "face": {
+      "front": {
+        "name": "Tinker",
+        "type": "Mercenary",
+        "class": "Defender Support",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DSupport_Tinker.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tinker",
+    "type": "Mercenary",
+    "class": "Defender Support",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Shrappak",
+    "loadoutoption2": "Sidearm",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS013": {
+    "id": "WTS013",
+    "face": {
+      "front": {
+        "name": "Enforcer",
+        "type": "Mercenary",
+        "class": "Breacher",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ABreacher_Enforcer.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Enforcer",
+    "type": "Mercenary",
+    "class": "Breacher",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Frag Grenade",
+    "loadoutoption2": "Breaching Charge",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS014": {
+    "id": "WTS014",
+    "face": {
+      "front": {
+        "name": "Shrapnel",
+        "type": "Mercenary",
+        "class": "Breacher",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ABreacher_Shrapnel.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shrapnel",
+    "type": "Mercenary",
+    "class": "Breacher",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Breaching Charge",
+    "loadoutoption2": "Flashbang",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "EXPLOSIVES",
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS015": {
+    "id": "WTS015",
+    "face": {
+      "front": {
+        "name": "Termite",
+        "type": "Mercenary",
+        "class": "Breacher",
+        "firepower": 3,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ABreacher_Termite.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Termite",
+    "type": "Mercenary",
+    "class": "Breacher",
+    "firepower": 3,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Breaching Charge",
+    "loadoutoption2": "Impact Grenade",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "FLANKER"
+    ],
+    "isToken": false
+  },
+  "WTS016": {
+    "id": "WTS016",
+    "face": {
+      "front": {
+        "name": "Torch",
+        "type": "Mercenary",
+        "class": "Breacher",
+        "firepower": 2,
+        "armor": 3,
+        "speed": 1,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ABreacher_Torch.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Torch",
+    "type": "Mercenary",
+    "class": "Breacher",
+    "firepower": 2,
+    "armor": 3, 
+    "speed": 1,
+    "set": "WTS",
+    "loadoutoption1": "Frag Grenade",
+    "loadoutoption2": "Sidearm",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS017": {
+    "id": "WTS017",
+    "face": {
+      "front": {
+        "name": "Collector",
+        "type": "Mercenary",
+        "class": "Fragger",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AFragger_Collector.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Collector",
+    "type": "Mercenary",
+    "class": "Fragger",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Flashbang",
+    "loadoutoption2": "Shrappak",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "ELECTRONICS",
+      "FLANKER"
+    ],
+    "isToken": false
+  },
+  "WTS018": {
+    "id": "WTS018",
+    "face": {
+      "front": {
+        "name": "Pointman",
+        "type": "Mercenary",
+        "class": "Fragger",
+        "firepower": 1,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AFragger_Pointman.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pointman",
+    "type": "Mercenary",
+    "class": "Fragger",
+    "firepower": 1,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Smoke Grenade",
+    "loadoutoption2": "Sidearm",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "PROTECTOR"
+    ],
+    "isToken": false
+  },
+  "WTS019": {
+    "id": "WTS019",
+    "face": {
+      "front": {
+        "name": "Thumper",
+        "type": "Mercenary",
+        "class": "Fragger",
+        "firepower": 3,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AFragger_Thumper.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Thumper",
+    "type": "Mercenary",
+    "class": "Fragger",
+    "firepower": 3,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "loadoutoption1": "Attack Hound",
+    "loadoutoption2": "Rapid Reload Mags",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "EXPLOSIVES",
+      "FLANKER"
+    ],
+    "isToken": false
+  },
+  "WTS020": {
+    "id": "WTS020",
+    "face": {
+      "front": {
+        "name": "Tremor",
+        "type": "Mercenary",
+        "class": "Fragger",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AFragger_Tremor.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tremor",
+    "type": "Mercenary",
+    "class": "Fragger",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Frag Grenade",
+    "loadoutoption2": "3S Stim Kit",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS021": {
+    "id": "WTS021",
+    "face": {
+      "front": {
+        "name": "Aegis",
+        "type": "Mercenary",
+        "class": "Attacker Support",
+        "firepower": 1,
+        "armor": 3,
+        "speed": 1,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ASupport_Aegis.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aegis",
+    "type": "Mercenary",
+    "class": "Attacker Support",
+    "firepower": 1,
+    "armor": 3, 
+    "speed": 1,
+    "set": "WTS",
+    "loadoutoption1": "Smoke Grenade",
+    "loadoutoption2": "Breaching Charge",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "PROTECTOR",
+      "BULLETPROOF"
+    ],
+    "isToken": false
+  },
+  "WTS022": {
+    "id": "WTS022",
+    "face": {
+      "front": {
+        "name": "Mule",
+        "type": "Mercenary",
+        "class": "Attacker Support",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ASupport_Mule.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mule",
+    "type": "Mercenary",
+    "class": "Attacker Support",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Breaching Charge",
+    "loadoutoption2": "Breaching Charge",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS023": {
+    "id": "WTS023",
+    "face": {
+      "front": {
+        "name": "Spectra",
+        "type": "Mercenary",
+        "class": "Attacker Support",
+        "firepower": 2,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ASupport_Spectra.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spectra",
+    "type": "Mercenary",
+    "class": "Attacker Support",
+    "firepower": 2,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "loadoutoption1": "Rapid Reload Mags",
+    "loadoutoption2": "Bulletproof Camera",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS024": {
+    "id": "WTS024",
+    "face": {
+      "front": {
+        "name": "Surge",
+        "type": "Mercenary",
+        "class": "Attacker Support",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22ASupport_Surge.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Surge",
+    "type": "Mercenary",
+    "class": "Attacker Support",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "loadoutoption1": "Attack Hound",
+    "loadoutoption2": "Smoke Grenade",
+    "unique": true,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS025": {
+    "id": "WTS025",
+    "face": {
+      "front": {
+        "name": "Barbed Wire",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 1,
+        "armor": 2,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Barbed%20Wire.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Barbed Wire",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 1,
+    "armor": 2, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS026": {
+    "id": "WTS026",
+    "face": {
+      "front": {
+        "name": "Bulletproof Camera",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 1,
+        "armor": 1,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Bulletproof%20Camera.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bulletproof Camera",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 1,
+    "armor": 1, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "BULLETPROOF",
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS027": {
+    "id": "WTS027",
+    "face": {
+      "front": {
+        "name": "Guard Hound",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 2,
+        "armor": 3,
+        "speed": 1,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Guard%20Hound.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Guard Hound",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 2,
+    "armor": 3, 
+    "speed": 1,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "PROTECTOR"
+    ],
+    "isToken": false
+  },
+  "WTS028": {
+    "id": "WTS028",
+    "face": {
+      "front": {
+        "name": "Impact Grenade",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 1,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Impact%20Grenade.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Impact Grenade",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 1,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "EXPLOSIVES"
+    ],
+    "isToken": false
+  },
+  "WTS029": {
+    "id": "WTS029",
+    "face": {
+      "front": {
+        "name": "Portable Shield",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 1,
+        "armor": 1,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Portable%20Shield.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Portable Shield",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 1,
+    "armor": 1, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "BULLETPROOF",
+      "PROTECTOR"
+    ],
+    "isToken": false
+  },
+  "WTS030": {
+    "id": "WTS030",
+    "face": {
+      "front": {
+        "name": "Shrappak",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 1,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Shrappak.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shrappak",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 1,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "EXPLOSIVES",
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS031": {
+    "id": "WTS031",
+    "face": {
+      "front": {
+        "name": "Sidearm",
+        "type": "Asset",
+        "class": "Defender Asset",
+        "firepower": 1,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DGadget_Sidearm.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sidearm",
+    "type": "Asset",
+    "class": "Defender Asset",
+    "firepower": 1,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS032": {
+    "id": "WTS032",
+    "face": {
+      "front": {
+        "name": "3S Stim Kit",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 2,
+        "armor": 2,
+        "speed": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_3-Serum%20Stimulant%20Kit.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "3S Stim Kit",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 2,
+    "armor": 2, 
+    "speed": 2,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS033": {
+    "id": "WTS033",
+    "face": {
+      "front": {
+        "name": "Attack Hound",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 3,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_Attack%20Hound.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Attack Hound",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 3,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS034": {
+    "id": "WTS034",
+    "face": {
+      "front": {
+        "name": "Breaching Charge",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 3,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_Breaching%20Charge.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Breaching Charge",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 3,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "EXPLOSIVES",
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS035": {
+    "id": "WTS035",
+    "face": {
+      "front": {
+        "name": "Flashbang",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 1,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_Flashbang.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flashbang",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 1,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS036": {
+    "id": "WTS036",
+    "face": {
+      "front": {
+        "name": "Frag Grenade",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 3,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_Frag%20Grenade.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Frag Grenade",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 3,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      "EXPLOSIVES"
+    ],
+    "isToken": false
+  },
+  "WTS037": {
+    "id": "WTS037",
+    "face": {
+      "front": {
+        "name": "Rapid Reload Mags",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 3,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_Rapid-Reload%20Mags.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rapid Reload Mags",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 3,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS038": {
+    "id": "WTS038",
+    "face": {
+      "front": {
+        "name": "Smoke Grenade",
+        "type": "Asset",
+        "class": "Attacker Asset",
+        "firepower": 2,
+        "armor": 0,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22AGadget_Smoke%20Grenade.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Smoke Grenade",
+    "type": "Asset",
+    "class": "Attacker Asset",
+    "firepower": 2,
+    "armor": 0, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Attacker"
+    ],
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS039": {
+    "id": "WTS039",
+    "face": {
+      "front": {
+        "name": "Operation Falling Bird",
+        "bombsite": "Cockpit",
+        "type": "Map",
+        "softwalls": 2,
+        "reinforcedwalls": 4,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Map_Operation%20Falling%20Bird.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Bomb.png",
+        "isHorizontal": true
+        }
+    },
+    "name": "Operation Falling Bird",
+    "bombsite": "Cockpit",
+    "type": "Map",
+    "softwalls": 2,
+    "reinforcedwalls": 4,
+    "set": "WTS",
+    "unique": true,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS040": {
+    "id": "WTS040",
+    "face": {
+      "front": {
+        "name": "Operation Heavy Swells",
+        "bombsite": "Upper Deck",
+        "type": "Map",
+        "softwalls": 3,
+        "reinforcedwalls": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Map_Operation%20Heavy%20Swells.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Bomb.png",
+        "isHorizontal": true
+        }
+    },
+    "name": "Operation Heavy Swells",
+    "bombsite": "Upper Deck",
+    "type": "Map",
+    "softwalls": 3,
+    "reinforcedwalls": 3,
+    "set": "WTS",
+    "unique": true,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS041": {
+    "id": "WTS041",
+    "face": {
+      "front": {
+        "name": "Operation Iron Bayou",
+        "bombsite": "Warehouse",
+        "type": "Map",
+        "softwalls": 3,
+        "reinforcedwalls": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Map_Operation%20Iron%20Bayou.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Bomb.png",
+        "isHorizontal": true
+        }
+    },
+    "name": "Operation Iron Bayou",
+    "bombsite": "Warehouse",
+    "type": "Map",
+    "softwalls": 3,
+    "reinforcedwalls": 3,
+    "set": "WTS",
+    "unique": true,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS042": {
+    "id": "WTS042",
+    "face": {
+      "front": {
+        "name": "Operation Paper Tower",
+        "bombsite": "Boss's Office",
+        "type": "Map",
+        "softwalls": 5,
+        "reinforcedwalls": 1,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Map_Operation%20Paper%20Tower.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Bomb.png",
+        "isHorizontal": true
+        }
+    },
+    "name": "Operation Paper Tower",
+    "bombsite": "Boss's Office",
+    "type": "Map",
+    "softwalls": 5,
+    "reinforcedwalls": 1,
+    "set": "WTS",
+    "unique": true,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS043": {
+    "id": "WTS043",
+    "face": {
+      "front": {
+        "name": "Operation Velvet Tomb",
+        "bombsite": "Scarlet Room",
+        "type": "Map",
+        "softwalls": 4,
+        "reinforcedwalls": 2,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Map_Operation%20Velvet%20Tomb.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Bomb.png",
+        "isHorizontal": true
+        }
+    },
+    "name": "Operation Velvet Tomb",
+    "bombsite": "Scarlet Room",
+    "type": "Map",
+    "softwalls": 4,
+    "reinforcedwalls": 2,
+    "set": "WTS",
+    "unique": true,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS044": {
+    "id": "WTS044",
+    "face": {
+      "front": {
+        "name": "Soft Wall",
+        "type": "Wall",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Wall_Soft%20Wall_Front.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Wall_Destroyed%20Wall_Back.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Soft Wall",
+    "type": "Wall",
+    "set": "WTS",
+    "unique": false,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS045": {
+    "id": "WTS045",
+    "face": {
+      "front": {
+        "name": "Reinforced Wall",
+        "type": "Wall",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Wall_Reinforced%20Wall_Front.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Wall_Destroyed%20Wall_Back.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Reinforced Wall",
+    "type": "Wall",
+    "set": "WTS",
+    "unique": false,
+    "keywords": [
+      "REINFORCED"
+    ],
+    "isToken": false
+  },
+  "WTS046": {
+    "id": "WTS046",
+    "face": {
+      "front": {
+        "name": "Default Camera",
+        "type": "Intel",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Intel_Camera_Front.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Intel_Camera_Back.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Default Camera",
+    "type": "Intel",
+    "set": "WTS",
+    "unique": false,
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS047": {
+    "id": "WTS047",
+    "face": {
+      "front": {
+        "name": "Default Drone",
+        "type": "Intel",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Intel_Drone_Front.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22Intel_Drone_Back.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Default Drone",
+    "type": "Intel",
+    "set": "WTS",
+    "unique": false,
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": false
+  },
+  "WTS048": {
+    "id": "WTS048",
+    "face": {
+      "front": {
+        "name": "Defuse Card",
+        "type": "Defuse Card",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Defuse%20Card_Art%20Front.png",
+        "isHorizontal": true
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/Objective_Defuse%20Card_Art%20Back.png",
+        "isHorizontal": true
+        }
+    },
+    "name": "Defuse Card",
+    "type": "Defuse Card",
+    "set": "WTS",
+    "unique": false,
+    "keywords": [
+      null
+    ],
+    "isToken": false
+  },
+  "WTS049": {
+    "id": "WTS049",
+    "face": {
+      "front": {
+        "name": "Brutus",
+        "type": "Token",
+        "class": "Packhound Token",
+        "firepower": 1,
+        "armor": 1,
+        "speed": 3,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DToken_Brutus.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/___Card%20Back_%20Standard.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Brutus",
+    "type": "Token",
+    "class": "Packhound Token",
+    "firepower": 1,
+    "armor": 1, 
+    "speed": 3,
+    "set": "WTS",
+    "unique": true,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "FLANKER"
+    ],
+    "isToken": true
+  },
+  "WTS050": {
+    "id": "WTS050",
+    "face": {
+      "front": {
+        "name": "Gas Canister",
+        "type": "Token",
+        "class": "Smog Token",
+        "firepower": 0,
+        "armor": 1,
+        "speed": 0,
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22DToken_Gas%20Canister.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/___Card%20Back_%20Standard.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Gas Canister",
+    "type": "Token",
+    "class": "Smog Token",
+    "firepower": 0,
+    "armor": 1, 
+    "speed": 0,
+    "set": "WTS",
+    "unique": false,
+    "preferred side": [
+      "Defender"
+    ],
+    "keywords": [
+      "ELECTRONICS"
+    ],
+    "isToken": true
+  },
+  "REF001": {
+    "id": "REF001",
+    "face": {
+      "front": {
+        "name": "Game Setup",
+        "type": "Reference Card",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Game%20Setup.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Round%20Structure.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Game Setup",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF002": {
+    "id": "REF002",
+    "face": {
+      "front": {
+        "name": "Round Structure",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Round%20Structure.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Game%20Setup.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Round Structure",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF003": {
+    "id": "REF003",
+    "face": {
+      "front": {
+        "name": "Icons",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Icons.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Post%20Plant.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Icons",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF004": {
+    "id": "REF004",
+    "face": {
+      "front": {
+        "name": "Keywords",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Keywords.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Trade%20Events.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Keywords",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF005": {
+    "id": "REF005",
+    "face": {
+      "front": {
+        "name": "Basic Actions",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Basic%20Actions.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Thank%20You%20QR.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Basic Actions",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF006": {
+    "id": "REF006",
+    "face": {
+      "front": {
+        "name": "Post-Plant",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Post%20Plant.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Icons.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Post-Plant",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF007": {
+    "id": "REF007",
+    "face": {
+      "front": {
+        "name": "Trade Events",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Trade%20Events.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Keywords.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Trade Events",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  },
+  "REF008": {
+    "id": "REF008",
+    "face": {
+      "front": {
+        "name": "Thank You QR",
+        "type": "Reference Card",
+        "class": "Smog Token",
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Thank%20You%20QR.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/632e1bc78277e8efdddd8f8f1bc0c331b9be1355/Card%20Gallery/S22__Ref%20Card_Basic%20Actions.png",
+        "isHorizontal": false
+        }
+    },
+    "name": "Thank You QR",
+    "type": "Reference Card",
+    "set": "WTS",
+    "unique": false,
+    "isToken": false
+  }
+}
