@@ -26,9 +26,6 @@
     "preferred side": [
       "Defender"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS002": {
@@ -154,9 +151,6 @@
     "preferred side": [
       "Defender"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS006": {
@@ -185,9 +179,6 @@
     "unique": true,
     "preferred side": [
       "Defender"
-    ],
-    "keywords": [
-      null
     ],
     "isToken": false
   },
@@ -379,9 +370,6 @@
     "preferred side": [
       "Defender"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS013": {
@@ -410,9 +398,6 @@
     "unique": true,
     "preferred side": [
       "Attacker"
-    ],
-    "keywords": [
-      null
     ],
     "isToken": false
   },
@@ -507,9 +492,6 @@
     "unique": true,
     "preferred side": [
       "Attacker"
-    ],
-    "keywords": [
-      null
     ],
     "isToken": false
   },
@@ -703,9 +685,6 @@
     "preferred side": [
       "Attacker"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS023": {
@@ -796,9 +775,6 @@
     "unique": false,
     "preferred side": [
       "Defender"
-    ],
-    "keywords": [
-      null
     ],
     "isToken": false
   },
@@ -980,9 +956,6 @@
     "preferred side": [
       "Defender"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS032": {
@@ -1010,9 +983,6 @@
     "preferred side": [
       "Attacker"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS033": {
@@ -1039,9 +1009,6 @@
     "unique": false,
     "preferred side": [
       "Attacker"
-    ],
-    "keywords": [
-      null
     ],
     "isToken": false
   },
@@ -1101,9 +1068,6 @@
     "preferred side": [
       "Attacker"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS036": {
@@ -1161,9 +1125,6 @@
     "preferred side": [
       "Attacker"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS038": {
@@ -1191,9 +1152,6 @@
     "preferred side": [
       "Attacker"
     ],
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS039": {
@@ -1220,9 +1178,6 @@
     "reinforcedwalls": 4,
     "set": "WTS",
     "unique": true,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS040": {
@@ -1249,9 +1204,6 @@
     "reinforcedwalls": 3,
     "set": "WTS",
     "unique": true,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS041": {
@@ -1278,9 +1230,6 @@
     "reinforcedwalls": 3,
     "set": "WTS",
     "unique": true,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS042": {
@@ -1307,9 +1256,6 @@
     "reinforcedwalls": 1,
     "set": "WTS",
     "unique": true,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS043": {
@@ -1336,9 +1282,6 @@
     "reinforcedwalls": 2,
     "set": "WTS",
     "unique": true,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS044": {
@@ -1359,9 +1302,6 @@
     "type": "Wall",
     "set": "WTS",
     "unique": false,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS045": {
@@ -1451,9 +1391,6 @@
     "type": "Defuse Card",
     "set": "WTS",
     "unique": false,
-    "keywords": [
-      null
-    ],
     "isToken": false
   },
   "WTS049": {
