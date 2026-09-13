@@ -23,7 +23,7 @@
     "gameplay": {
         "SearchandDestroy": {
             "mulligan": {
-                "info": "Choose your loadout options from your chosen Mercs.",
+                "info": "Choose your loadout options.",
                 "startingHandSize": 16
             },
             "newTurn": {
@@ -49,6 +49,7 @@
             ],
             "sections": {
                 "customSections": [
+                    "sharedZone",
                     "Lane 1 Walls",
                     "Lane 2 Walls",
                     "Lane 3 Walls",
@@ -63,7 +64,7 @@
                     "Casualty Pile"
                 ],
         "sharedZone": {
-          "height": 0,
+          "height": 22,
           "layout": {
             "direction": "row",
             "content": [
@@ -174,6 +175,16 @@
                         "isHorizontalAllowed": false,
                         "isGroupForbidden": true,
                         "displayedTitle": "Pile"
+                    },
+                    "sharedZone": {
+                        "isDefaultSection": true,
+                        "title": "Map Walls",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": false,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Map Walls"
                     },
                     "Lane 1 Walls": {
                         "isDefaultSection": true,
