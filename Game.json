@@ -1,6 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
-    "menuBackgroundImage": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22DAnchor_Shrapnel.png",
+    "menuBackgroundImage": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Gamefound%20Project%20Thumbnail_WIP.png",
     "deckBuilding": {
         "mainFilters": [
             "class",
@@ -36,12 +36,12 @@
                 {
                   "id": "ArmorDmgCounter",
                   "name": "Armor Damage Counter",
-                  "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/644f19dd8588c5f8aa1f5939436b7c96836784d7/Card%20Gallery/Armor%20Dmg%20Token.png"
+                  "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Armor%20Dmg%20Token.png"
                 },
                 {
                   "id": "AbilityUseCounter",
                   "name": "Ability Use Counter",
-                  "image": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/109ff7e0d648bead2c7baa2b773a5b461ea5ba43/Card%20Gallery/Ability%20Counter%20Token.png"
+                  "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Ability%20Counter%20Token.png"
                 }
               ],
             "countersStartingValues": [
@@ -307,6 +307,6 @@
     },
     "cards": {
         "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
-        "cardBack": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/b098a630b492e9af206a81546e96747859c02ff8/Card%20Gallery/__Card%20Back_Mercenaries.png"
+        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
     }
 }
