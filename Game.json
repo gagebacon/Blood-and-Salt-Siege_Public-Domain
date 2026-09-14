@@ -83,10 +83,28 @@
                             "content": [
                                 {
                                     "section": "Lane_1"
-                                },
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "style": {
+                                "width": "44vh",
+                                "justify-content": "start"
+                            },
+                            "content": [
                                 {
                                     "section": "Lane_2"
-                                },
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "style": {
+                                "width": "44vh",
+                                "justify-content": "start"
+                            },
+                            "content": [
                                 {
                                     "section": "Lane_3"
                                 }
