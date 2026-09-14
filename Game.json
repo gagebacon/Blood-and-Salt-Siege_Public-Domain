@@ -130,6 +130,9 @@
                         },
                         {
                             "direction": "column",
+                            "style": {
+                                    "alignment": "CENTER"
+                                    },
                             "content": [
                                 {
                                     "section": "Lane_1"
@@ -137,14 +140,16 @@
                                 {
                                     "section": "Initiative_Slot",
                                     "style": {
-                                    "width": "22vh",
-                                    "justify-content": "CENTER"
+                                    "width": "22vh"
                                     }
                                 }
                             ]
                         },
                         {
                             "direction": "column",
+                            "style": {
+                                    "alignment": "CENTER"
+                                    },
                             "content": [
                                 {
                                     "section": "Lane_2"
@@ -152,14 +157,16 @@
                                 {
                                     "section": "Reaction_Slot_1",
                                     "style": {
-                                    "width": "22vh",
-                                    "justify-content": "CENTER"
+                                    "width": "22vh"
                                     }
                                 }
                             ]
                         },
                         {
                             "direction": "column",
+                            "style": {
+                                    "alignment": "CENTER"
+                                    },
                             "content": [
                                 {
                                     "section": "Lane_3"
@@ -167,8 +174,7 @@
                                 {
                                     "section": "Reaction_Slot_2",
                                     "style": {
-                                    "width": "22vh",
-                                    "justify-content": "CENTER"
+                                    "width": "22vh"
                                     }
                                 }
                             ]
@@ -211,7 +217,7 @@
                         "title": "Intel_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "LARGE",
+                        "height": "DEFAULT",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -252,7 +258,7 @@
                         "title": "Defuses_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "LARGE",
+                        "height": "DEFAULT",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
