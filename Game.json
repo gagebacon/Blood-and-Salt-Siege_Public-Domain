@@ -308,7 +308,8 @@
                     }
                 }
             }
-        },
+        }
+    },
     "defaultResources": {
         "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
     },
@@ -316,5 +317,4 @@
         "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
         "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
         }
-    }
 }
