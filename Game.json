@@ -183,7 +183,6 @@
                                     "section": "Casualty_Zone",
                                     "isSymetricalForOpponents": true,
                                      "style": {
-                                        "color": "red",
                                         "marginLeft": "auto",
                                         "width": "80%"
                                     }
@@ -211,7 +210,7 @@
                         "isDefaultSection": true,
                         "title": "Intel_Zone",
                         "isHidden": "no",
-                        "height": "MEDIUM",
+                        "height": "SMALL",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -248,7 +247,7 @@
                         "isDefaultSection": true,
                         "title": "Defuses_Zone",
                         "isHidden": "no",
-                        "height": "HUGE",
+                        "height": "SMALL",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
