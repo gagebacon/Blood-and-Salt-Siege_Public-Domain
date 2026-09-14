@@ -31,28 +31,48 @@
                 "mulliganCycle": {
                     "selectionRange": {
                         "min": 8
-            }
-        }
-    },
+                    }
+                }
+            },
             "newTurn": {
                 "drawOnStart": false,
                 "sharedTurn": true,
                 "firstPlayerTokenName": "Initiative",
                 "drawPerTurn": 0
             },
+            "tokens": [
+                {
+                    "name": "Initiative",
+                    "image": "https://i.imgur.com/Zr2oV9p.png",
+                    "isUnique": true,
+                    "leavesAtEndOfTurn": false
+                }
+            ],
+            "draggableTokens": [
+                {
+                  "id": "Shield",
+                  "name": "Shield",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/shield.png"
+                },
+                {
+                  "id": "Experience",
+                  "name": "Experience",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/experience.png"
+                }
+             ],
+             "countersStartingValues": [
+                0
+            ],
             "sections": {
                 "customSections": [
-                    "Lane 1 Walls",
-                    "Lane 2 Walls",
-                    "Lane 3 Walls",
                     "Intel Zone",
                     "Lane 1",
                     "Lane 2",
                     "Lane 3",
                     "Defuses Zone"
                 ],
-        "layout": {  
-                  "direction": "row",
+                "layout": {  
+                    "direction": "row",
                     "isSymetricalForOpponents": true,
                     "content": [
                         {
@@ -65,6 +85,10 @@
                         },
                         {
                             "direction": "column",
+                            "style": {
+                                "width": "44vh",
+                                "justify-content": "start"
+                            },
                             "content": [
                                 {
                                     "section": "Lane 1"
@@ -88,8 +112,8 @@
                     ]
                 },
                 "categoriesAlreadyOnBoard": [
-                    "Intel Zone",
-                    "Defuses Zone"
+                    "Intel",
+                    "Defuse Cards"
                 ],
                 "sectionsDict": {
                     "Stack": {
@@ -157,12 +181,5 @@
                 }
             }
         }
-    },
-    "defaultResources": {
-        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
-    },
-    "cards": {
-        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
-        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
-        }
+    }
 }
