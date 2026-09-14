@@ -1479,7 +1479,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF002": {
     "id": "REF002",
@@ -1500,7 +1500,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF003": {
     "id": "REF003",
@@ -1521,7 +1521,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF004": {
     "id": "REF004",
@@ -1542,7 +1542,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF005": {
     "id": "REF005",
@@ -1563,7 +1563,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF006": {
     "id": "REF006",
@@ -1584,7 +1584,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF007": {
     "id": "REF007",
@@ -1605,7 +1605,7 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "REF008": {
     "id": "REF008",
@@ -1626,6 +1626,6 @@
     "type": "Reference Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   }
 }
