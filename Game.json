@@ -104,6 +104,23 @@
                     "leavesAtEndOfTurn": false
                 }
             ],
+            "sharedZone": {
+                "height": 22,
+                "layout": {
+                "direction": "column",
+                "content": [
+                    { 
+                    "section": "Lane_1_Walls"
+                    },
+                    { 
+                    "section": "Lane_2_Walls"
+                    }, 
+                    { 
+                    "section": "Lane_3_Walls"
+                    }
+                ]
+                }
+            },
             "sections": {
                 "customSections": [
                     "Lane_1_Walls",
@@ -233,7 +250,7 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "CENTER",
+                        "alignment": "START",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
@@ -253,7 +270,7 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "CENTER",
+                        "alignment": "END",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
