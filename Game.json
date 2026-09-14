@@ -37,29 +37,20 @@
             "newTurn": {
                 "drawOnStart": false,
                 "sharedTurn": true,
-                "firstPlayerTokenName": "Initiative",
                 "drawPerTurn": 0
             },
-            "tokens": [
-                {
-                    "name": "Initiative",
-                    "image": "https://i.imgur.com/Zr2oV9p.png",
-                    "isUnique": true,
-                    "leavesAtEndOfTurn": false
-                }
-            ],
             "draggableTokens": [
                 {
-                  "id": "Shield",
-                  "name": "Shield",
-                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/shield.png"
+                  "id": "ArmorDmgCounter",
+                  "name": "Armor Damage Counter",
+                  "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Armor%20Dmg%20Token.png"
                 },
                 {
-                  "id": "Experience",
-                  "name": "Experience",
-                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/experience.png"
+                  "id": "AbilityUseCounter",
+                  "name": "Ability Use Counter",
+                  "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Ability%20Counter%20Token.png"
                 }
-             ],
+              ],
              "countersStartingValues": [
                 0
             ],
