@@ -130,9 +130,6 @@
                         },
                         {
                             "direction": "column",
-                            "style": {
-                                    "alignment": "CENTER"
-                                    },
                             "content": [
                                 {
                                     "section": "Lane_1"
@@ -147,9 +144,6 @@
                         },
                         {
                             "direction": "column",
-                            "style": {
-                                    "alignment": "CENTER"
-                                    },
                             "content": [
                                 {
                                     "section": "Lane_2"
@@ -164,9 +158,6 @@
                         },
                         {
                             "direction": "column",
-                            "style": {
-                                    "alignment": "CENTER"
-                                    },
                             "content": [
                                 {
                                     "section": "Lane_3"
@@ -217,7 +208,7 @@
                         "title": "Intel_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "DEFAULT",
+                        "height": "LARGE",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -227,7 +218,7 @@
                         "title": "Lane_1",
                         "isHidden": "no",
                         "width": "44vh",
-                        "height": "LARGE",
+                        "height": "DEFAULT",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -237,7 +228,7 @@
                         "title": "Lane_2",
                         "isHidden": "no",
                         "width": "44vh",
-                        "height": "LARGE",
+                        "height": "DEFAULT",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -247,7 +238,7 @@
                         "title": "Lane_3",
                         "isHidden": "no",
                         "width": "44vh",
-                        "height": "LARGE",
+                        "height": "DEFAULT",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -258,7 +249,7 @@
                         "title": "Defuses_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "DEFAULT",
+                        "height": "LARGE",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
