@@ -105,12 +105,8 @@
                 }
             ],
             "sharedZone": {
-                "height": 0,
-                "layout": {
-                        "direction": "row",
-                 "style": {
-                "zIndex": 1
-             },
+                "height": 11,
+                "direction": "row",
                     "content": [
                         {
                          "section": "Lane_1_Walls"
@@ -155,9 +151,6 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "section": "Lane_1_Walls"
-                                },
-                                {
                                     "section": "Lane_1"
                                 },
                                 {
@@ -173,9 +166,6 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "section": "Lane_2_Walls"
-                                },
-                                {
                                     "section": "Lane_2"
                                 },
                                 {
@@ -190,9 +180,6 @@
                         {
                             "direction": "column",
                             "content": [
-                                {
-                                    "section": "Lane_3_Walls"
-                                },
                                 {
                                     "section": "Lane_3"
                                 },
@@ -353,8 +340,7 @@
                     }
                 }
             }
-        }
-    },
+        },
     "defaultResources": {
         "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
     },
