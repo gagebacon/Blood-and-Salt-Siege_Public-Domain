@@ -135,13 +135,7 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "sharedZone": {
-                                        "height": 22,
-                                        "layout": {
-                                            "direction": "column",
-                                            "content": [{ "section": "Lane_1_Walls"}]
-                                        }
-                                    }
+                                    "section": "Lane_1_Walls"
                                 },
                                 {
                                     "section": "Lane_1"
@@ -159,13 +153,7 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "sharedZone": {
-                                        "height": 22,
-                                        "layout": {
-                                            "direction": "column",
-                                            "content": [{ "section": "Lane_1_Walls"}]
-                                        }
-                                    }
+                                    "section": "Lane_2_Walls"
                                 },
                                 {
                                     "section": "Lane_2"
@@ -183,13 +171,7 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "sharedZone": {
-                                        "height": 22,
-                                        "layout": {
-                                            "direction": "column",
-                                            "content": [{ "section": "Lane_1_Walls"}]
-                                        }
-                                    }
+                                    "section": "Lane_3_Walls"
                                 },
                                 {
                                     "section": "Lane_3"
@@ -248,6 +230,7 @@
                     },
                     "Lane_1_Walls": {
                         "title": "Lane_1_Walls",
+                        "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "CENTER",
@@ -257,6 +240,7 @@
                     },
                     "Lane_2_Walls": {
                         "title": "Lane_2_Walls",
+                        "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "CENTER",
@@ -266,6 +250,7 @@
                     },
                     "Lane_3_Walls": {
                         "title": "Lane_3_Walls",
+                        "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "CENTER",
