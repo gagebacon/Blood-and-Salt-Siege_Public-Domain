@@ -136,6 +136,7 @@
                                 },
                                 {
                                     "section": "Initiative_Slot",
+                                    "alignment": "CENTER",
                                     "style": {
                                     "width": "22vh"
                                     }
@@ -150,6 +151,7 @@
                                 },
                                 {
                                     "section": "Reaction_Slot_1",
+                                    "alignment": "CENTER",
                                     "style": {
                                     "width": "22vh"
                                     }
@@ -164,6 +166,7 @@
                                 },
                                 {
                                     "section": "Reaction_Slot_2",
+                                    "alignment": "CENTER",
                                     "style": {
                                     "width": "22vh"
                                     }
@@ -208,7 +211,7 @@
                         "isDefaultSection": true,
                         "title": "Intel_Zone",
                         "isHidden": "no",
-                        "height": "LARGE",
+                        "height": "HUGE",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -217,7 +220,7 @@
                     "Lane_1": {
                         "title": "Lane_1",
                         "isHidden": "no",
-                        "height": "LARGE",
+                        "height": "HUGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -226,7 +229,7 @@
                     "Lane_2": {
                         "title": "Lane_2",
                         "isHidden": "no",
-                        "height": "LARGE",
+                        "height": "HUGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -235,7 +238,7 @@
                     "Lane_3": {
                         "title": "Lane_3",
                         "isHidden": "no",
-                        "height": "LARGE",
+                        "height": "HUGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -245,7 +248,7 @@
                         "isDefaultSection": true,
                         "title": "Defuses_Zone",
                         "isHidden": "no",
-                        "height": "LARGE",
+                        "height": "HUGE",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
