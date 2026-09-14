@@ -110,7 +110,11 @@
                     "Lane_1",
                     "Lane_2",
                     "Lane_3",
-                    "Defuses_Zone"
+                    "Defuses_Zone",
+                    "Initiative Slot",
+                    "Reaction Slot 1",
+                    "Reaction Slot 2",
+                    "Casualty Pile"
                 ],
                 "layout": {  
                     "direction": "row",
@@ -170,6 +174,42 @@
                         }
                     ]
                 },
+        "Combat Zone Row": {
+            "direction": "row",
+            "isSymetricalForOpponents": true,
+            "content": [
+              {
+                "section": "Initiative_Slot",
+                "style": {
+                  "width": "11vh",
+                  "justify-content": "start"
+                }
+              },
+              {
+                "section": "Reaction_Slot_1",
+                "style": {
+                  "width": "11vh",
+                  "justify-content": "start"
+                }
+              },
+              {
+                "section": "Reaction_Slot_2",
+                "style": {
+                  "width": "11vh",
+                  "justify-content": "start"
+                }
+              },
+              {
+                "section": "Casualty_Zone",
+                "isSymetricalForOpponents": true,
+                "style": {
+                  "marginLeft": "auto",
+                  "width": "40%"
+                }
+              }
+            ]
+          }
+        },
                 "categoriesAlreadyOnBoard": [
                     "Intel",
                     "Defuse Card"
@@ -236,11 +276,46 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Defuses"
+                    },
+                    "Initiative_Slot": {
+                        "title": "Initiative_Slot",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": false,
+                        "displayedTitle": "Initiative Slot"
+                    },
+                    "Reaction_Slot_1": {
+                        "title": "Reaction_Slot_1",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": false,
+                        "displayedTitle": "Reaction Slot"
+                    },
+                    "Reaction_Slot_2": {
+                        "title": "Reaction_Slot_2",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": false,
+                        "displayedTitle": "Reaction Slot"
+                    },
+                    "Casualty_Zone": {
+                        "title": "Casualty_Zone",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "END",
+                        "opponentAlignment": "START",
+                        "displayedTitle": "Casualty Zone",
+                        "noQuickActions": true
                     }
                 }
             }
-        }
-    },
+        },
     "defaultResources": {
         "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
     },
