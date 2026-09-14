@@ -135,7 +135,13 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "sharedZone": "Lane_1_Walls"
+                                    "sharedZone": {
+                                        "height": 22,
+                                        "layout": {
+                                            "direction": "column",
+                                            "content": [{ "section": "Lane_1_Walls"}]
+                                        }
+                                    }
                                 },
                                 {
                                     "section": "Lane_1"
@@ -153,7 +159,13 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "sharedZone": "Lane_2_Walls"
+                                    "sharedZone": {
+                                        "height": 22,
+                                        "layout": {
+                                            "direction": "column",
+                                            "content": [{ "section": "Lane_1_Walls"}]
+                                        }
+                                    }
                                 },
                                 {
                                     "section": "Lane_2"
@@ -171,7 +183,13 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "sharedZone": "Lane_3_Walls"
+                                    "sharedZone": {
+                                        "height": 22,
+                                        "layout": {
+                                            "direction": "column",
+                                            "content": [{ "section": "Lane_1_Walls"}]
+                                        }
+                                    }
                                 },
                                 {
                                     "section": "Lane_3"
