@@ -104,22 +104,6 @@
                     "leavesAtEndOfTurn": false
                 }
             ],
-            "sharedZone": {
-                "height": 11,
-                "direction": "row",
-                    "content": [
-                        {
-                         "section": "Lane_1_Walls"
-                        },
-                        {
-                         "section": "Lane_2_Walls"
-                        },
-                        {
-                         "section": "Lane_3_Walls"
-                        }
-                    ]
-                 }
-             },
             "sections": {
                 "customSections": [
                     "Lane_1_Walls",
@@ -151,6 +135,9 @@
                             "direction": "column",
                             "content": [
                                 {
+                                    "section": "Lane_1_Walls"
+                                },
+                                {
                                     "section": "Lane_1"
                                 },
                                 {
@@ -166,6 +153,9 @@
                             "direction": "column",
                             "content": [
                                 {
+                                    "section": "Lane_2_Walls"
+                                },
+                                {
                                     "section": "Lane_2"
                                 },
                                 {
@@ -180,6 +170,9 @@
                         {
                             "direction": "column",
                             "content": [
+                                {
+                                    "section": "Lane_3_Walls"
+                                },
                                 {
                                     "section": "Lane_3"
                                 },
@@ -297,7 +290,7 @@
                         "title": "Defuses_Zone",
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "START",
+                        "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Defuses"
@@ -333,14 +326,15 @@
                         "title": "Casualty_Zone",
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "CENTER",
+                        "alignment": "END",
                         "opponentAlignment": "START",
                         "displayedTitle": "Casualty Zone",
                         "noQuickActions": true
                     }
                 }
             }
-        },
+        }
+    },
     "defaultResources": {
         "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
     },
