@@ -1,13 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
     "menuBackgroundImage": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png",
-    "defaultRessources": {
-        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
-    },
-    "cards": {
-        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
-        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
-    },
     "deckBuilding": {
         "mainFilters": [
             "class",
@@ -47,24 +40,8 @@
                 "firstPlayerTokenName": "Initiative",
                 "drawPerTurn": 0
             },
-            "draggableTokens": [
-                {
-                  "id": "ArmorDmgCounter",
-                  "name": "Armor Damage Counter",
-                  "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Armor%20Dmg%20Token.png"
-                },
-                {
-                  "id": "AbilityUseCounter",
-                  "name": "Ability Use Counter",
-                  "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Ability%20Counter%20Token.png"
-                }
-              ],
-            "countersStartingValues": [
-                0
-            ],
             "sections": {
                 "customSections": [
-                    "sharedZone",
                     "Lane 1 Walls",
                     "Lane 2 Walls",
                     "Lane 3 Walls",
@@ -72,38 +49,8 @@
                     "Lane 1",
                     "Lane 2",
                     "Lane 3",
-                    "Defuses Zone",
-                    "Initiative Slot",
-                    "Reaction Slot 1",
-                    "Reaction Slot 2",
-                    "Casualty Pile"
+                    "Defuses Zone"
                 ],
-        "sharedZone": {
-          "height": 22,
-          "layout": {
-            "direction": "row",
-            "content": [
-              {
-                "section": "Lane 1 Walls",
-                "style": {
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Lane 2 Walls",
-                "style": {
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Lane 3 Walls",
-                "style": {
-                  "justify-content": "start"
-                }
-              }
-            ]
-          }
-        },
         "layout": {  
                   "direction": "row",
                     "isSymetricalForOpponents": true,
@@ -140,42 +87,6 @@
                         }
                     ]
                 },
-        "Combat Zone Row": {
-            "direction": "row",
-            "isSymetricalForOpponents": true,
-            "content": [
-              {
-                "section": "Initiative Slot",
-                "style": {
-                  "width": "11vh",
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Reaction Slot 1",
-                "style": {
-                  "width": "11vh",
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Reaction Slot 2",
-                "style": {
-                  "width": "11vh",
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Casualty Zone",
-                "isSymetricalForOpponents": true,
-                "style": {
-                  "marginLeft": "auto",
-                  "width": "40%"
-                }
-              }
-            ]
-          }
-        },
                 "categoriesAlreadyOnBoard": [
                     "Intel Zone",
                     "Defuses Zone"
@@ -190,49 +101,6 @@
                         "isHorizontalAllowed": false,
                         "isGroupForbidden": true,
                         "displayedTitle": "Pile"
-                    },
-                    "sharedZone": {
-                        "isDefaultSection": true,
-                        "title": "Map Walls",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": false,
-                        "isGroupForbidden": true,
-                        "displayedTitle": "Map Walls"
-                    },
-                    "Lane 1 Walls": {
-                        "isDefaultSection": true,
-                        "title": "Intel Zone",
-                        "isHidden": "no",
-                        "width": "44vh",
-                        "height": "SMALL",
-                        "alignment": "NONE",
-                        "isHorizontalAllowed": false,
-                        "isGroupForbidden": true,
-                        "displayedTitle": "Walls"
-                    },
-                    "Lane 2 Walls": {
-                        "isDefaultSection": true,
-                        "title": "Intel Zone",
-                        "isHidden": "no",
-                        "width": "44vh",
-                        "height": "SMALL",
-                        "alignment": "NONE",
-                        "isHorizontalAllowed": false,
-                        "isGroupForbidden": true,
-                        "displayedTitle": "Walls"
-                    },
-                    "Lane 3 Walls": {
-                        "isDefaultSection": true,
-                        "title": "Intel Zone",
-                        "isHidden": "no",
-                        "width": "44vh",
-                        "height": "SMALL",
-                        "alignment": "NONE",
-                        "isHorizontalAllowed": false,
-                        "isGroupForbidden": true,
-                        "displayedTitle": "Walls"
                     },
                     "Intel Zone": {
                         "isDefaultSection": true,
@@ -285,44 +153,16 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Defuses"
-                    },
-                    "Initiative Slot": {
-                        "title": "Initiative Slot",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "enterTapped": false,
-                        "displayedTitle": "Initiative Slot"
-                    },
-                    "Reaction Slot 1": {
-                        "title": "Reaction Slot 1",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "enterTapped": false,
-                        "displayedTitle": "Reaction Slot"
-                    },
-                    "Reaction Slot 2": {
-                        "title": "Reaction Slot 2",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "CENTER",
-                        "isHorizontalAllowed": true,
-                        "enterTapped": false,
-                        "displayedTitle": "Reaction Slot"
-                    },
-                    "Casualty Zone": {
-                        "title": "Casualty Zone",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "END",
-                        "opponentAlignment": "START",
-                        "displayedTitle": "Casualty Zone",
-                        "noQuickActions": true
                     }
                 }
             }
+        },
+    "defaultResources": {
+        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
+    },
+    "cards": {
+        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
+        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
         }
+    }
 }
