@@ -180,6 +180,7 @@
                                     "section": "Casualty_Zone",
                                     "isSymetricalForOpponents": true,
                                      "style": {
+                                        "color": "red",
                                         "marginLeft": "auto",
                                         "width": "80%"
                                     }
@@ -207,7 +208,6 @@
                         "isDefaultSection": true,
                         "title": "Intel_Zone",
                         "isHidden": "no",
-                        "width": "22vh",
                         "height": "LARGE",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
@@ -217,8 +217,7 @@
                     "Lane_1": {
                         "title": "Lane_1",
                         "isHidden": "no",
-                        "width": "44vh",
-                        "height": "DEFAULT",
+                        "height": "LARGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -227,8 +226,7 @@
                     "Lane_2": {
                         "title": "Lane_2",
                         "isHidden": "no",
-                        "width": "44vh",
-                        "height": "DEFAULT",
+                        "height": "LARGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -237,8 +235,7 @@
                     "Lane_3": {
                         "title": "Lane_3",
                         "isHidden": "no",
-                        "width": "44vh",
-                        "height": "DEFAULT",
+                        "height": "LARGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -248,7 +245,6 @@
                         "isDefaultSection": true,
                         "title": "Defuses_Zone",
                         "isHidden": "no",
-                        "width": "22vh",
                         "height": "LARGE",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
