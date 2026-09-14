@@ -130,10 +130,6 @@
                         },
                         {
                             "direction": "column",
-                            "style": {
-                                "width": "44vh",
-                                "justify-content": "start"
-                            },
                             "content": [
                                 {
                                     "section": "Lane_1"
@@ -141,18 +137,14 @@
                                 {
                                     "section": "Initiative_Slot",
                                     "style": {
-                                    "width": "11vh",
-                                    "justify-content": "start"
+                                    "width": "22vh",
+                                    "justify-content": "CENTER"
                                     }
                                 }
                             ]
                         },
                         {
                             "direction": "column",
-                            "style": {
-                                "width": "44vh",
-                                "justify-content": "start"
-                            },
                             "content": [
                                 {
                                     "section": "Lane_2"
@@ -160,18 +152,14 @@
                                 {
                                     "section": "Reaction_Slot_1",
                                     "style": {
-                                    "width": "11vh",
-                                    "justify-content": "start"
+                                    "width": "22vh",
+                                    "justify-content": "CENTER"
                                     }
                                 }
                             ]
                         },
                         {
                             "direction": "column",
-                            "style": {
-                                "width": "44vh",
-                                "justify-content": "start"
-                            },
                             "content": [
                                 {
                                     "section": "Lane_3"
@@ -179,8 +167,8 @@
                                 {
                                     "section": "Reaction_Slot_2",
                                     "style": {
-                                    "width": "11vh",
-                                    "justify-content": "start"
+                                    "width": "22vh",
+                                    "justify-content": "CENTER"
                                     }
                                 }
                             ]
@@ -196,7 +184,7 @@
                                     "isSymetricalForOpponents": true,
                                      "style": {
                                         "marginLeft": "auto",
-                                        "width": "40%"
+                                        "width": "80%"
                                     }
                                 }
                             ]
@@ -223,7 +211,7 @@
                         "title": "Intel_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "SMALL",
+                        "height": "LARGE",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -264,7 +252,7 @@
                         "title": "Defuses_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "SMALL",
+                        "height": "LARGE",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -303,7 +291,7 @@
                         "height": "SMALL",
                         "alignment": "END",
                         "opponentAlignment": "START",
-                        "displayedTitle": "CasualtyZone",
+                        "displayedTitle": "Casualty Zone",
                         "noQuickActions": true
                     }
                 }
