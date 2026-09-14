@@ -295,6 +295,15 @@
                         "isGroupForbidden": true,
                         "displayedTitle": "Defuses"
                     },
+                    "Casualty_Zone": {
+                        "title": "Casualty_Zone",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "opponentAlignment": "START",
+                        "displayedTitle": "Casualty Zone",
+                        "noQuickActions": true
+                    },
                     "Initiative_Slot": {
                         "title": "Initiative_Slot",
                         "isHidden": "no",
@@ -321,15 +330,6 @@
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Reaction Slot"
-                    },
-                    "Casualty_Zone": {
-                        "title": "Casualty_Zone",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "CENTER",
-                        "opponentAlignment": "START",
-                        "displayedTitle": "Casualty Zone",
-                        "noQuickActions": true
                     }
                 }
             }
