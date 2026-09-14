@@ -104,6 +104,26 @@
                     "leavesAtEndOfTurn": false
                 }
             ],
+            "sharedZone": {
+                "height": 0,
+                "layout": {
+                        "direction": "row",
+                 "style": {
+                "zIndex": 1
+             },
+                    "content": [
+                        {
+                         "section": "Lane_1_Walls"
+                        },
+                        {
+                         "section": "Lane_2_Walls"
+                        },
+                        {
+                         "section": "Lane_3_Walls"
+                        }
+                    ]
+                 }
+             },
             "sections": {
                 "customSections": [
                     "Lane_1_Walls",
@@ -208,7 +228,7 @@
                     "Defuse Card"
                 ],
                 "sectionsDict": {
-                    "Map": {
+                    "Stack": {
                         "isDefaultSection": true,
                         "title": "Map",
                         "isHidden": "no",
