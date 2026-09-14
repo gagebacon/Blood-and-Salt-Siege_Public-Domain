@@ -139,24 +139,24 @@
                         "displayedTitle": "Lane 1"
                     },
                     "Lane 2": {
-                        "title": "Lane 1",
+                        "title": "Lane 2",
                         "isHidden": "no",
                         "width": "44vh",
                         "height": "LARGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
-                        "displayedTitle": "Lane 1"
+                        "displayedTitle": "Lane 2"
                     },
                     "Lane 3": {
-                        "title": "Lane 1",
+                        "title": "Lane 3",
                         "isHidden": "no",
                         "width": "44vh",
                         "height": "LARGE",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
-                        "displayedTitle": "Lane 1"
+                        "displayedTitle": "Lane 3"
                     },
                     "Defuses Zone": {
                         "isDefaultSection": true,
