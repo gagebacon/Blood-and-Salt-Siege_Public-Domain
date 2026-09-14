@@ -106,6 +106,9 @@
             ],
             "sections": {
                 "customSections": [
+                    "Lane_1_Walls",
+                    "Lane_2_Walls",
+                    "Lane_3_Walls",
                     "Intel_Zone",
                     "Lane_1",
                     "Lane_2",
@@ -132,6 +135,9 @@
                             "direction": "column",
                             "content": [
                                 {
+                                    "sharedZone": "Lane_1_Walls"
+                                },
+                                {
                                     "section": "Lane_1"
                                 },
                                 {
@@ -147,6 +153,9 @@
                             "direction": "column",
                             "content": [
                                 {
+                                    "sharedZone": "Lane_2_Walls"
+                                },
+                                {
                                     "section": "Lane_2"
                                 },
                                 {
@@ -161,6 +170,9 @@
                         {
                             "direction": "column",
                             "content": [
+                                {
+                                    "sharedZone": "Lane_3_Walls"
+                                },
                                 {
                                     "section": "Lane_3"
                                 },
@@ -196,15 +208,15 @@
                     "Defuse Card"
                 ],
                 "sectionsDict": {
-                    "Stack": {
+                    "Map": {
                         "isDefaultSection": true,
-                        "title": "Stack",
+                        "title": "Map",
                         "isHidden": "no",
-                        "height": "HUGE",
+                        "height": "LARGE",
                         "alignment": "NONE",
-                        "isHorizontalAllowed": false,
+                        "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
-                        "displayedTitle": "Pile"
+                        "displayedTitle": "Map/Bomb"
                     },
                     "Intel_Zone": {
                         "isDefaultSection": true,
@@ -215,6 +227,33 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Intel Zone"
+                    },
+                    "Lane_1_Walls": {
+                        "title": "Lane_1_Walls",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": false,
+                        "displayedTitle": "Walls"
+                    },
+                    "Lane_2_Walls": {
+                        "title": "Lane_2_Walls",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": false,
+                        "displayedTitle": "Walls"
+                    },
+                    "Lane_3_Walls": {
+                        "title": "Lane_3_Walls",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": false,
+                        "displayedTitle": "Walls"
                     },
                     "Lane_1": {
                         "title": "Lane_1",
