@@ -1302,7 +1302,7 @@
     "type": "Wall",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "WTS045": {
     "id": "WTS045",
@@ -1325,7 +1325,7 @@
     "keywords": [
       "REINFORCED"
     ],
-    "isToken": false
+    "isToken": true
   },
   "WTS046": {
     "id": "WTS046",
@@ -1348,7 +1348,7 @@
     "keywords": [
       "ELECTRONICS"
     ],
-    "isToken": false
+    "isToken": true
   },
   "WTS047": {
     "id": "WTS047",
@@ -1371,7 +1371,7 @@
     "keywords": [
       "ELECTRONICS"
     ],
-    "isToken": false
+    "isToken": true
   },
   "WTS048": {
     "id": "WTS048",
@@ -1391,7 +1391,7 @@
     "type": "Defuse Card",
     "set": "WTS",
     "unique": false,
-    "isToken": false
+    "isToken": true
   },
   "WTS049": {
     "id": "WTS049",

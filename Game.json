@@ -54,6 +54,56 @@
              "countersStartingValues": [
                 0
             ],
+            "tokens": [
+                {
+                    "name": "Gas Canister",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22DToken_Gas%20Canister.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
+                },
+                {
+                    "name": "Brutus",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22DToken_Brutus.png",
+                    "isUnique": true,
+                    "leavesAtEndOfTurn": false
+                },
+                {
+                    "name": "Defuse Card",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Objective_Defuse%20Card_Art%20Back.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": true
+                },
+                {
+                    "name": "Default Drone",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22Intel_Drone_Back.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
+                },
+                {
+                    "name": "Default Camera",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22Intel_Camera_Back.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
+                },
+                {
+                    "name": "Reinforced Wall",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22Wall_Reinforced%20Wall_Front.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
+                },
+                {
+                    "name": "Soft Wall",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22Wall_Soft%20Wall_Front.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
+                },
+                {
+                    "name": "Destroyed Wall",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22Wall_Destroyed%20Wall_Back.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
+                }
+            ],
             "sections": {
                 "customSections": [
                     "Intel_Zone",
