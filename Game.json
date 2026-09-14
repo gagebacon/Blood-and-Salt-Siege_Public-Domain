@@ -22,20 +22,6 @@
     },
     "gameplay": {
         "SearchandDestroy": {
-            "beforeGameStart": {
-                "initialBoardSetup": [{ 
-                "boardCategoriesInSideboard": ["Map"],
-                "boardCardSelection": [
-                    { 
-                        "category": "Map",
-                        "min": 1,
-                        "max": 1,
-                        "unselectedDestination": "ExileHidden"
-                    }
-                ]
-            }   
-        ]
-    },
             "mulligan": {
                 "info": "Choose your loadout options.",
                 "startingHandSize": 16,
