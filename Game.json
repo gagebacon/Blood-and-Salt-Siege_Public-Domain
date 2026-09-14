@@ -310,7 +310,7 @@
                         "title": "Defuses_Zone",
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "END",
+                        "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Defuses"
@@ -346,7 +346,7 @@
                         "title": "Casualty_Zone",
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "END",
+                        "alignment": "CENTER",
                         "opponentAlignment": "START",
                         "displayedTitle": "Casualty Zone",
                         "noQuickActions": true
