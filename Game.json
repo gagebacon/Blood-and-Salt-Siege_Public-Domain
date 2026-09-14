@@ -56,11 +56,11 @@
             ],
             "sections": {
                 "customSections": [
-                    "Intel Zone",
-                    "Lane 1",
-                    "Lane 2",
-                    "Lane 3",
-                    "Defuses Zone"
+                    "Intel_Zone",
+                    "Lane_1",
+                    "Lane_2",
+                    "Lane_3",
+                    "Defuses_Zone"
                 ],
                 "layout": {  
                     "direction": "row",
@@ -70,7 +70,7 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "section": "Intel Zone"
+                                    "section": "Intel_Zone"
                                 }
                             ]
                         },
@@ -82,13 +82,13 @@
                             },
                             "content": [
                                 {
-                                    "section": "Lane 1"
+                                    "section": "Lane_1"
                                 },
                                 {
-                                    "section": "Lane 2"
+                                    "section": "Lane_2"
                                 },
                                 {
-                                    "section": "Lane 3"
+                                    "section": "Lane_3"
                                 }
                             ]
                         },
@@ -96,7 +96,7 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "section": "Defuses Zone"
+                                    "section": "Defuses_Zone"
                                 }
                             ]
                         }
@@ -104,7 +104,7 @@
                 },
                 "categoriesAlreadyOnBoard": [
                     "Intel",
-                    "Defuse Cards"
+                    "Defuse Card"
                 ],
                 "sectionsDict": {
                     "Stack": {
@@ -117,9 +117,9 @@
                         "isGroupForbidden": true,
                         "displayedTitle": "Pile"
                     },
-                    "Intel Zone": {
+                    "Intel_Zone": {
                         "isDefaultSection": true,
-                        "title": "Intel Zone",
+                        "title": "Intel_Zone",
                         "isHidden": "no",
                         "width": "22vh",
                         "height": "HUGE",
@@ -128,8 +128,8 @@
                         "isGroupForbidden": true,
                         "displayedTitle": "Intel Zone"
                     },
-                    "Lane 1": {
-                        "title": "Lane 1",
+                    "Lane_1": {
+                        "title": "Lane_1",
                         "isHidden": "no",
                         "width": "44vh",
                         "height": "LARGE",
@@ -138,8 +138,8 @@
                         "enterTapped": false,
                         "displayedTitle": "Lane 1"
                     },
-                    "Lane 2": {
-                        "title": "Lane 2",
+                    "Lane_2": {
+                        "title": "Lane_2",
                         "isHidden": "no",
                         "width": "44vh",
                         "height": "LARGE",
@@ -148,8 +148,8 @@
                         "enterTapped": false,
                         "displayedTitle": "Lane 2"
                     },
-                    "Lane 3": {
-                        "title": "Lane 3",
+                    "Lane_3": {
+                        "title": "Lane_3",
                         "isHidden": "no",
                         "width": "44vh",
                         "height": "LARGE",
@@ -158,9 +158,9 @@
                         "enterTapped": false,
                         "displayedTitle": "Lane 3"
                     },
-                    "Defuses Zone": {
+                    "Defuses_Zone": {
                         "isDefaultSection": true,
-                        "title": "Defuses Zone",
+                        "title": "Defuses_Zone",
                         "isHidden": "no",
                         "width": "22vh",
                         "height": "HUGE",
