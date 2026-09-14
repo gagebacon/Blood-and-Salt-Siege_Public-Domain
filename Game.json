@@ -112,9 +112,9 @@
                     "Lane_3",
                     "Defuses_Zone",
                     "Initiative Slot",
-                    "Reaction Slot 1",
-                    "Reaction Slot 2",
-                    "Casualty Pile"
+                    "Reaction_Slot_1",
+                    "Reaction_Slot_2",
+                    "Casualty_Pile"
                 ],
                 "layout": {  
                     "direction": "row",
@@ -137,6 +137,13 @@
                             "content": [
                                 {
                                     "section": "Lane_1"
+                                },
+                                {
+                                    "section": "Initiative_Slot",
+                                    "style": {
+                                    "width": "11vh",
+                                    "justify-content": "start"
+                                    }
                                 }
                             ]
                         },
@@ -149,6 +156,13 @@
                             "content": [
                                 {
                                     "section": "Lane_2"
+                                },
+                                {
+                                    "section": "Reaction_Slot_1",
+                                    "style": {
+                                    "width": "11vh",
+                                    "justify-content": "start"
+                                    }
                                 }
                             ]
                         },
@@ -161,6 +175,13 @@
                             "content": [
                                 {
                                     "section": "Lane_3"
+                                },
+                                {
+                                    "section": "Reaction_Slot_2",
+                                    "style": {
+                                    "width": "11vh",
+                                    "justify-content": "start"
+                                    }
                                 }
                             ]
                         },
@@ -169,47 +190,19 @@
                             "content": [
                                 {
                                     "section": "Defuses_Zone"
+                                },
+                                {
+                                    "section": "Casualty_Zone",
+                                    "isSymetricalForOpponents": true,
+                                     "style": {
+                                        "marginLeft": "auto",
+                                        "width": "40%"
+                                    }
                                 }
                             ]
                         }
                     ]
                 },
-        "Combat Zone Row": {
-            "direction": "row",
-            "isSymetricalForOpponents": true,
-            "content": [
-              {
-                "section": "Initiative_Slot",
-                "style": {
-                  "width": "11vh",
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Reaction_Slot_1",
-                "style": {
-                  "width": "11vh",
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Reaction_Slot_2",
-                "style": {
-                  "width": "11vh",
-                  "justify-content": "start"
-                }
-              },
-              {
-                "section": "Casualty_Zone",
-                "isSymetricalForOpponents": true,
-                "style": {
-                  "marginLeft": "auto",
-                  "width": "40%"
-                }
-              }
-            ]
-          }
-        },
                 "categoriesAlreadyOnBoard": [
                     "Intel",
                     "Defuse Card"
@@ -230,7 +223,7 @@
                         "title": "Intel_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "HUGE",
+                        "height": "SMALL",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -271,7 +264,7 @@
                         "title": "Defuses_Zone",
                         "isHidden": "no",
                         "width": "22vh",
-                        "height": "HUGE",
+                        "height": "SMALL",
                         "alignment": "END",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -310,7 +303,7 @@
                         "height": "SMALL",
                         "alignment": "END",
                         "opponentAlignment": "START",
-                        "displayedTitle": "Casualty Zone",
+                        "displayedTitle": "CasualtyZone",
                         "noQuickActions": true
                     }
                 }
@@ -322,5 +315,6 @@
     "cards": {
         "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
         "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
+        }
     }
 }
