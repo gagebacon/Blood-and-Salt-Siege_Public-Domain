@@ -211,7 +211,7 @@
                         "isDefaultSection": true,
                         "title": "Intel_Zone",
                         "isHidden": "no",
-                        "height": "HUGE",
+                        "height": "MEDIUM",
                         "alignment": "START",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
@@ -220,7 +220,7 @@
                     "Lane_1": {
                         "title": "Lane_1",
                         "isHidden": "no",
-                        "height": "HUGE",
+                        "height": "MEDIUM",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -229,7 +229,7 @@
                     "Lane_2": {
                         "title": "Lane_2",
                         "isHidden": "no",
-                        "height": "HUGE",
+                        "height": "MEDIUM",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
@@ -238,7 +238,7 @@
                     "Lane_3": {
                         "title": "Lane_3",
                         "isHidden": "no",
-                        "height": "HUGE",
+                        "height": "MEDIUM",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
