@@ -107,7 +107,7 @@
             "sharedZone": {
                 "height": 22,
                 "layout": {
-                "direction": "column",
+                "direction": "row",
                 "content": [
                     { 
                     "section": "Lane_1_Walls"
@@ -137,7 +137,7 @@
                     "Casualty_Pile"
                 ],
                 "layout": {  
-                    "direction": "row",
+                    "direction": "column",
                     "isSymetricalForOpponents": true,
                     "content": [
                         {
@@ -246,6 +246,7 @@
                         "displayedTitle": "Intel Zone"
                     },
                     "Lane_1_Walls": {
+                        "isDefaultSection": true,
                         "title": "Lane_1_Walls",
                         "isShared": true,
                         "isHidden": "no",
@@ -256,6 +257,7 @@
                         "displayedTitle": "Walls"
                     },
                     "Lane_2_Walls": {
+                        "isDefaultSection": true,
                         "title": "Lane_2_Walls",
                         "isShared": true,
                         "isHidden": "no",
@@ -266,6 +268,7 @@
                         "displayedTitle": "Walls"
                     },
                     "Lane_3_Walls": {
+                        "isDefaultSection": true,
                         "title": "Lane_3_Walls",
                         "isShared": true,
                         "isHidden": "no",
@@ -313,6 +316,7 @@
                         "displayedTitle": "Defuses"
                     },
                     "Casualty_Zone": {
+                        "isDefaultSection": true,
                         "title": "Casualty_Zone",
                         "isHidden": "no",
                         "height": "SMALL",
