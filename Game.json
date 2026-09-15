@@ -263,7 +263,7 @@
                         "isDefaultSection": true,
                         "title": "Stack",
                         "isHidden": "no",
-                        "height": "LARGE",
+                        "height": "HUGE",
                         "alignment": "NONE",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
