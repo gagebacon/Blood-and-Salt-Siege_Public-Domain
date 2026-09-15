@@ -104,8 +104,9 @@
                     "leavesAtEndOfTurn": false
                 }
             ],
-            "sharedZone": {
-                "height": 22,
+            "sections": {
+                "sharedZone": {
+                "height": 11,
                 "layout": {
                 "direction": "row",
                 "content": [
@@ -113,15 +114,14 @@
                     "section": "Lane_1_Walls"
                     },
                     { 
-                    "section": "Lane_1_Walls"
+                    "section": "Lane_2_Walls"
                     }, 
                     { 
-                    "section": "Lane_1_Walls"
+                    "section": "Lane_3_Walls"
                     }
                 ]
-                }
-            },
-            "sections": {
+            }
+        },
                 "customSections": [
                     "Lane_1_Walls",
                     "Lane_2_Walls",
@@ -319,7 +319,8 @@
                         "alignment": "START",
                         "opponentAlignment": "START",
                         "displayedTitle": "Casualty Zone",
-                        "noQuickActions": true
+                        "noQuickActions": true,
+                        "keepTappedNewTurn": true
                     },
                     "Initiative_Slot": {
                         "title": "Initiative_Slot",
