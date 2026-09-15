@@ -111,18 +111,27 @@
                 "direction": "row",
                 "content": [
                     { 
-                    "section": "Lane_1_Walls"
+                    "section": "Lane_1_Walls",
+                    "style": {
+                    "width": "44vh"
+                    }
                     },
                     { 
-                    "section": "Lane_2_Walls"
+                    "section": "Lane_2_Walls",
+                    "style": {
+                    "width": "44vh"
+                    }
                     }, 
                     { 
-                    "section": "Lane_3_Walls"
+                    "section": "Lane_3_Walls",
+                    "style": {
+                    "width": "44vh"
+                    }
                     }
                 ]
             }
         },
-                "customSections": [
+            "customSections": [
                     "Lane_1_Walls",
                     "Lane_2_Walls",
                     "Lane_3_Walls",
@@ -152,9 +161,6 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "section": "Lane_1_Walls"
-                                },
-                                {
                                     "section": "Lane_1"
                                 },
                                 {
@@ -170,9 +176,6 @@
                             "direction": "column",
                             "content": [
                                 {
-                                    "section": "Lane_2_Walls"
-                                },
-                                {
                                     "section": "Lane_2"
                                 },
                                 {
@@ -187,9 +190,6 @@
                         {
                             "direction": "column",
                             "content": [
-                                {
-                                    "section": "Lane_3_Walls"
-                                },
                                 {
                                     "section": "Lane_3"
                                 },
