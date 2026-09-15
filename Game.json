@@ -113,8 +113,7 @@
                     { 
                     "section": "Map",
                     "style": {
-                    "width": "6vh",
-                    "marginRight": "auto"
+                    "width": "1vh"
                     }
                     },
                     { 
