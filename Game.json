@@ -12,7 +12,8 @@
         "formats": [
             {
                 "title": "Constructed",
-                "gameplay": "SearchandDestroy"
+                "gameplay": "SearchandDestroy",
+                "deckRulesets": "Constructed"
             },
             {
                 "title": "Pick-and-ban",
@@ -20,12 +21,23 @@
             }
         ]
     },
+    "deckRulesets": {
+        "Constructed": {
+                "general": { "min": 18, "maxPerCard": 8 },
+                "categories": [
+                { "category": "Mercenary", "min": 8, "max": 8 },
+                { "category": "Asset", "min": 8, "max": 8 },
+                { "category": "Map", "min": 2, "max": 2 },
+                { "category": "Sideboard", "min": 0, "max": 8 }
+            ]
+        }
+    },   
     "gameplay": {
         "SearchandDestroy": {
             "mulligan": {
                 "triggeredByButton": true,
                 "info": "Choose your loadout options.",
-                "startingHandSize": 16,
+                "startingHandSize": 18,
                 "mulliganCount": {
                     "max": 1
                 },
