@@ -57,6 +57,12 @@
             ],
             "tokens": [
                 {
+                    "name": "Initiative",
+                    "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Initiative%20Token.png",
+                    "isUnique": true,
+                    "leavesAtEndOfTurn": false
+                },
+                {
                     "name": "Gas Canister",
                     "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22DToken_Gas%20Canister.png",
                     "isUnique": false,
