@@ -254,6 +254,7 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
+                        "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
@@ -263,6 +264,7 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
+                        "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
@@ -272,6 +274,7 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
+                        "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
