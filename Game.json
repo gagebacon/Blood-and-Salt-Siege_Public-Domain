@@ -229,14 +229,14 @@
                 ],
                 "sectionsDict": {
                     "Stack": {
-                        "isDefaultSection": true,
-                        "title": "Map",
-                        "isHidden": "no",
+                        "isDefaultSection": false,
+                        "title": "Stack",
+                        "isHidden": "yes",
                         "height": "LARGE",
                         "alignment": "NONE",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
-                        "displayedTitle": "Map/Bomb"
+                        "displayedTitle": "Stack"
                     },
                     "Intel_Zone": {
                         "isDefaultSection": true,
@@ -323,7 +323,8 @@
                         "opponentAlignment": "START",
                         "displayedTitle": "Casualty Zone",
                         "noQuickActions": true,
-                        "keepTappedNewTurn": true
+                        "keepTappedNewTurn": true,
+                        "enterTapped": true
                     },
                     "Initiative_Slot": {
                         "title": "Initiative_Slot",
