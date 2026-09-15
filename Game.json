@@ -113,8 +113,8 @@
                     { 
                     "section": "Map",
                     "style": {
-                    "width": "11vh",
-                    "marginRight": "auto"
+                    "width": "16vh",
+                    "marginRight": "DEFAULT"
                     }
                     },
                     { 
@@ -254,6 +254,11 @@
                     "Intel": "Intel_Zone",
                     "Defuse_Card": "Defuses_Zone"
                 },
+                "autoPlayFromStack": {
+                    "Map": "Map",
+                    "Intel": "Intel_Zone",
+                    "Defuse_Card": "Defuses_Zone"
+                },
                 "sectionsDict": {
                     "Stack": {
                         "isDefaultSection": true,
@@ -288,10 +293,11 @@
                     "Map": {
                         "isDefaultSection": true,
                         "title": "Map",
-                        "isHidden": "yes",
+                        "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "CENTER",
                         "isHorizontalAllowed": true,
+                        "isHorizontal": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Map"
                     },
