@@ -136,6 +136,7 @@
             }
         },
             "customSections": [
+                    "Stack",
                     "Lane_1_Walls",
                     "Lane_2_Walls",
                     "Lane_3_Walls",
