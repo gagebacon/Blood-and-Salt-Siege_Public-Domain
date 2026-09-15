@@ -13,7 +13,7 @@
             {
                 "title": "Constructed",
                 "gameplay": "SearchandDestroy",
-                "deckRulesets": "Constructed"
+                "deckRulesets": "Constructed_Rules"
             },
             {
                 "title": "Pick-and-ban",
@@ -22,7 +22,7 @@
         ]
     },
     "deckRulesets": {
-        "Constructed": {
+        "Constructed_Rules": {
                 "general": { "min": 18, "maxPerCard": 8 },
                 "categories": [
                 { "category": "Mercenary", "min": 8, "max": 8 },
