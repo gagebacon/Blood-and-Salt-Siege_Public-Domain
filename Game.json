@@ -107,25 +107,26 @@
             "sections": {
                 "sharedZone": {
                 "height": 11,
+                "alignment": "CENTER",
                 "layout": {
                 "direction": "row",
                 "content": [
                     { 
                     "section": "Lane_1_Walls",
                     "style": {
-                    "width": "44vh"
+                    "width": "33vh"
                     }
                     },
                     { 
                     "section": "Lane_2_Walls",
                     "style": {
-                    "width": "44vh"
+                    "width": "33vh"
                     }
                     }, 
                     { 
                     "section": "Lane_3_Walls",
                     "style": {
-                    "width": "44vh"
+                    "width": "33vh"
                     }
                     }
                 ]
