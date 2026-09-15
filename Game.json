@@ -23,6 +23,7 @@
     "gameplay": {
         "SearchandDestroy": {
             "mulligan": {
+                "triggeredByButton": true,
                 "info": "Choose your loadout options.",
                 "startingHandSize": 16,
                 "mulliganCount": {
@@ -237,17 +238,6 @@
                             ]
                         }
                     ]
-                },
-                "categoriesAlreadyOnBoard": [
-                    "Intel",
-                    "Defuse Card"
-                ],
-                "beforeGameStart": {
-                    "boardCategoriesInSideboard": ["Intel", "Defuse_Card"],
-                    "boardCardSelection": [
-                    { "category": "Map", "min": 0, "max": 1, "unselectedDestination": "ExileHidden" }
-                ],
-                    "chooseAnotherStartingPlayer": true
                 },
                  "autoPlayFromHand": {
                     "Mercenary": "Stack",
