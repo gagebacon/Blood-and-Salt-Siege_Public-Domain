@@ -71,7 +71,7 @@
                     "name": "Defuse Card",
                     "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Objective_Defuse%20Card_Art%20Back.png",
                     "isUnique": false,
-                    "leavesAtEndOfTurn": true
+                    "leavesAtEndOfTurn": false
                 },
                 {
                     "name": "Default Drone",
@@ -242,6 +242,13 @@
                     "Intel",
                     "Defuse Card"
                 ],
+                "beforeGameStart": {
+                    "boardCategoriesInSideboard": ["Intel", "Defuse_Card"],
+                    "boardCardSelection": [
+                    { "category": "Map", "min": 0, "max": 1, "unselectedDestination": "ExileHidden" }
+                ],
+                    "chooseAnotherStartingPlayer": true
+                },
                  "autoPlayFromHand": {
                     "Mercenary": "Stack",
                     "Asset": "Stack",
