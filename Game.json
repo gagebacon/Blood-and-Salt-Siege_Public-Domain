@@ -109,26 +109,26 @@
                 "height": 11,
                 "layout": {
                 "direction": "row",
-                "style": {
-                    "alignItems": "CENTER"
-                },
                 "content": [
                     { 
                     "section": "Lane_1_Walls",
                     "style": {
-                    "width": "33vh"
+                    "width": "33vh",
+                    "alignment": "CENTER"
                     }
                     },
                     { 
                     "section": "Lane_2_Walls",
                     "style": {
-                    "width": "33vh"
+                    "width": "33vh",
+                    "alignment": "CENTER"
                     }
                     }, 
                     { 
                     "section": "Lane_3_Walls",
                     "style": {
-                    "width": "33vh"
+                    "width": "33vh",
+                    "alignment": "CENTER"
                     }
                     }
                 ]
