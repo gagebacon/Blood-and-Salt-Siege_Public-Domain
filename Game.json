@@ -113,8 +113,8 @@
                     { 
                     "section": "Map",
                     "style": {
-                    "width": "16vh",
-                    "marginRight": "DEFAULT"
+                    "width": "6vh",
+                    "marginRight": "auto"
                     }
                     },
                     { 
@@ -144,7 +144,6 @@
         },
             "customSections": [
                     "Stack",
-                    "Discard",
                     "Map",
                     "Lane_1_Walls",
                     "Lane_2_Walls",
@@ -269,16 +268,6 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Stack"
-                    },
-                    "Discard": {
-                        "isDefaultSection": false,
-                        "title": "Discard",
-                        "isHidden": "yes",
-                        "height": "LARGE",
-                        "alignment": "NONE",
-                        "isHorizontalAllowed": true,
-                        "isGroupForbidden": true,
-                        "displayedTitle": "Discard"
                     },
                     "Intel_Zone": {
                         "isDefaultSection": true,
