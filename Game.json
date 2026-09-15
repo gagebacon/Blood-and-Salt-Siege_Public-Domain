@@ -171,7 +171,8 @@
                                     "section": "Initiative_Slot",
                                     "alignment": "CENTER",
                                     "style": {
-                                    "width": "22vh"
+                                    "width": "22vh",
+                                    "marginLeft": "auto"
                                     }
                                 }
                             ]
@@ -186,7 +187,8 @@
                                     "section": "Reaction_Slot_1",
                                     "alignment": "CENTER",
                                     "style": {
-                                    "width": "22vh"
+                                    "width": "22vh",
+                                    "marginLeft": "auto"
                                     }
                                 }
                             ]
@@ -201,7 +203,8 @@
                                     "section": "Reaction_Slot_2",
                                     "alignment": "CENTER",
                                     "style": {
-                                    "width": "22vh"
+                                    "width": "22vh",
+                                    "marginLeft": "auto"
                                     }
                                 }
                             ]
