@@ -1348,7 +1348,7 @@
     "keywords": [
       "ELECTRONICS"
     ],
-    "isToken": true
+    "isToken": false
   },
   "WTS047": {
     "id": "WTS047",
@@ -1371,7 +1371,7 @@
     "keywords": [
       "ELECTRONICS"
     ],
-    "isToken": true
+    "isToken": false
   },
   "WTS048": {
     "id": "WTS048",
@@ -1391,7 +1391,7 @@
     "type": "Defuse_Card",
     "set": "WTS",
     "unique": false,
-    "isToken": true
+    "isToken": false
   },
   "WTS049": {
     "id": "WTS049",
