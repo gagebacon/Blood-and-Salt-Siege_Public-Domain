@@ -107,9 +107,11 @@
             "sections": {
                 "sharedZone": {
                 "height": 11,
-                "alignment": "CENTER",
                 "layout": {
                 "direction": "row",
+                "style": {
+                    "alignItems": "CENTER"
+                },
                 "content": [
                     { 
                     "section": "Lane_1_Walls",
