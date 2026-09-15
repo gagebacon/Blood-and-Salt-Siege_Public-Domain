@@ -114,7 +114,7 @@
                     "section": "Lane_1_Walls",
                     "style": {
                     "width": "33vh",
-                    "alignment": "START"
+                    "marginLeft": "auto"
                     }
                     },
                     { 
@@ -128,7 +128,8 @@
                     "section": "Lane_3_Walls",
                     "style": {
                     "width": "33vh",
-                    "alignment": "END"
+                    "alignment": "END",
+                    "marginRight": "auto"
                     }
                     }
                 ]
