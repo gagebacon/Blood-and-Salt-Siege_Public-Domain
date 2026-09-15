@@ -172,7 +172,8 @@
                                     "alignment": "CENTER",
                                     "style": {
                                     "width": "22vh",
-                                    "marginLeft": "auto"
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -188,7 +189,8 @@
                                     "alignment": "CENTER",
                                     "style": {
                                     "width": "22vh",
-                                    "marginLeft": "auto"
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -204,7 +206,8 @@
                                     "alignment": "CENTER",
                                     "style": {
                                     "width": "22vh",
-                                    "marginLeft": "auto"
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
                                     }
                                 }
                             ]
