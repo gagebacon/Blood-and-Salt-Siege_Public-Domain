@@ -114,7 +114,7 @@
                     "section": "Lane_1_Walls",
                     "style": {
                     "width": "33vh",
-                    "alignment": "CENTER"
+                    "alignment": "START"
                     }
                     },
                     { 
@@ -128,7 +128,7 @@
                     "section": "Lane_3_Walls",
                     "style": {
                     "width": "33vh",
-                    "alignment": "CENTER"
+                    "alignment": "END"
                     }
                     }
                 ]
@@ -253,7 +253,6 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
@@ -263,7 +262,6 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
@@ -273,7 +271,6 @@
                         "isShared": true,
                         "isHidden": "no",
                         "height": "SMALL",
-                        "alignment": "CENTER",
                         "isHorizontalAllowed": true,
                         "enterTapped": false,
                         "displayedTitle": "Walls"
