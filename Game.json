@@ -111,6 +111,13 @@
                 "direction": "row",
                 "content": [
                     { 
+                    "section": "Map",
+                    "style": {
+                    "width": "11vh",
+                    "marginRight": "auto"
+                    }
+                    },
+                    { 
                     "section": "Lane_1_Walls",
                     "style": {
                     "width": "33vh",
@@ -137,6 +144,8 @@
         },
             "customSections": [
                     "Stack",
+                    "Discard",
+                    "Map",
                     "Lane_1_Walls",
                     "Lane_2_Walls",
                     "Lane_3_Walls",
@@ -235,16 +244,36 @@
                     "Intel",
                     "Defuse Card"
                 ],
+                 "autoPlayFromHand": {
+                    "Mercenary": "Stack",
+                    "Asset": "Stack",
+                    "Map": "Stack",
+                    "Token": "Stack",
+                    "Wall": "Stack",
+                    "Reference_Card": "Stack",
+                    "Intel": "Intel_Zone",
+                    "Defuse_Card": "Defuses_Zone"
+                },
                 "sectionsDict": {
                     "Stack": {
-                        "isDefaultSection": false,
+                        "isDefaultSection": true,
                         "title": "Stack",
-                        "isHidden": "yes",
+                        "isHidden": "no",
                         "height": "LARGE",
                         "alignment": "NONE",
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Stack"
+                    },
+                    "Discard": {
+                        "isDefaultSection": false,
+                        "title": "Discard",
+                        "isHidden": "yes",
+                        "height": "LARGE",
+                        "alignment": "NONE",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Discard"
                     },
                     "Intel_Zone": {
                         "isDefaultSection": true,
@@ -255,6 +284,16 @@
                         "isHorizontalAllowed": true,
                         "isGroupForbidden": true,
                         "displayedTitle": "Intel Zone"
+                    },
+                    "Map": {
+                        "isDefaultSection": true,
+                        "title": "Map",
+                        "isHidden": "yes",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Map"
                     },
                     "Lane_1_Walls": {
                         "title": "Lane_1_Walls",

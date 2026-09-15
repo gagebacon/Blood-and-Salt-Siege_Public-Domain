@@ -1378,7 +1378,7 @@
     "face": {
       "front": {
         "name": "Defuse Card",
-        "type": "Defuse Card",
+        "type": "Defuse_Card",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/Objective_Defuse%20Card_Art%20Front.png",
         "isHorizontal": true
       },
@@ -1388,7 +1388,7 @@
         }
     },
     "name": "Defuse Card",
-    "type": "Defuse Card",
+    "type": "Defuse_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1399,7 +1399,7 @@
       "front": {
         "name": "Brutus",
         "type": "Token",
-        "class": "Packhound Token",
+        "class": "Packhound_Token",
         "firepower": 1,
         "armor": 1,
         "speed": 3,
@@ -1413,7 +1413,7 @@
     },
     "name": "Brutus",
     "type": "Token",
-    "class": "Packhound Token",
+    "class": "Packhound_Token",
     "firepower": 1,
     "armor": 1, 
     "speed": 3,
@@ -1433,7 +1433,7 @@
       "front": {
         "name": "Gas Canister",
         "type": "Token",
-        "class": "Smog Token",
+        "class": "Smog_Token",
         "firepower": 0,
         "armor": 1,
         "speed": 0,
@@ -1447,7 +1447,7 @@
     },
     "name": "Gas Canister",
     "type": "Token",
-    "class": "Smog Token",
+    "class": "Smog_Token",
     "firepower": 0,
     "armor": 1, 
     "speed": 0,
@@ -1466,7 +1466,7 @@
     "face": {
       "front": {
         "name": "Game Setup",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Game%20Setup.png",
         "isHorizontal": false
       },
@@ -1476,7 +1476,7 @@
         }
     },
     "name": "Game Setup",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1486,7 +1486,7 @@
     "face": {
       "front": {
         "name": "Round Structure",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Round%20Structure.png",
         "isHorizontal": false
@@ -1497,7 +1497,7 @@
         }
     },
     "name": "Round Structure",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1507,7 +1507,7 @@
     "face": {
       "front": {
         "name": "Icons",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Icons.png",
         "isHorizontal": false
@@ -1518,7 +1518,7 @@
         }
     },
     "name": "Icons",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1528,7 +1528,7 @@
     "face": {
       "front": {
         "name": "Keywords",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Keywords.png",
         "isHorizontal": false
@@ -1539,7 +1539,7 @@
         }
     },
     "name": "Keywords",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1549,7 +1549,7 @@
     "face": {
       "front": {
         "name": "Basic Actions",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Basic%20Actions.png",
         "isHorizontal": false
@@ -1560,7 +1560,7 @@
         }
     },
     "name": "Basic Actions",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1570,7 +1570,7 @@
     "face": {
       "front": {
         "name": "Post-Plant",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Post%20Plant.png",
         "isHorizontal": false
@@ -1581,7 +1581,7 @@
         }
     },
     "name": "Post-Plant",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1591,7 +1591,7 @@
     "face": {
       "front": {
         "name": "Trade Events",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Trade%20Events.png",
         "isHorizontal": false
@@ -1602,7 +1602,7 @@
         }
     },
     "name": "Trade Events",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
@@ -1612,7 +1612,7 @@
     "face": {
       "front": {
         "name": "Thank You QR",
-        "type": "Reference Card",
+        "type": "Reference_Card",
         "class": "Smog Token",
         "image": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/S22__Ref%20Card_Thank%20You%20QR.png",
         "isHorizontal": false
@@ -1623,7 +1623,7 @@
         }
     },
     "name": "Thank You QR",
-    "type": "Reference Card",
+    "type": "Reference_Card",
     "set": "WTS",
     "unique": false,
     "isToken": true
