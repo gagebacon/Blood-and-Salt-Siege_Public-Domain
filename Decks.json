@@ -1,74 +1,77 @@
-[
-    {
-        "title": "Welcome to Siege",
-        "id": "Welcome to Siege",
-        "game": "Blood and Salt: Siege",
-        "format": "Constructed",
-        "cardCount": 15,
-        "createdAt": "2026-09-24",
-        "lastModifiedAt": "2026-09-24",
-        "deckList": {
-            "categoriesOrder": [
-                "Mercenary",
-                "Asset",
-                "Map",
-                "Sideboard"
-            ],
-            "Mercenary": [
-                {
-                    "count": 1,
-                    "id": "WTS001"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS014"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS024"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS008"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS006"
-                }
-            ],
-            "Asset": [
-                {
-                    "count": 1,
-                    "id": "WTS032"
-                },
-                {
-                    "count": 2,
-                    "id": "WTS027"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS031"
-                },
-                {
-                    "count": 3,
-                    "id": "WTS034"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS038"
-                }
-            ],
-            "Map": [
-                {
-                    "count": 1,
-                    "id": "WTS041"
-                },
-                {
-                    "count": 1,
-                    "id": "WTS039"
-                }
-            ],
-            "Sideboard": []
-        }
-    }
-]
+
+{
+  "title": "Welcome to Siege",
+  "id": "62a4fb1a-1621-4cd5-ab0a-ee8a0927537e",
+  "cardCount": 15,
+  "createdAt": "2026-09-24T21:25:05.402Z",
+  "lastModifiedAt": "2026-09-24T21:26:28.032Z",
+  "game": "Blood and Salt: Siege",
+  "format": [
+    "Constructed"
+  ],
+  "deckList": {
+    "categoriesOrder": [
+      "Mercenary",
+      "Asset",
+      "Map"
+    ],
+    "Mercenary": [
+      {
+        "count": 1,
+        "id": "WTS001"
+      },
+      {
+        "count": 1,
+        "id": "WTS006"
+      },
+      {
+        "count": 1,
+        "id": "WTS008"
+      },
+      {
+        "count": 1,
+        "id": "WTS014"
+      },
+      {
+        "count": 1,
+        "id": "WTS024"
+      }
+    ],
+    "Asset": [
+      {
+        "count": 3,
+        "id": "WTS034"
+      },
+      {
+        "count": 1,
+        "id": "WTS027"
+      },
+      {
+        "count": 1,
+        "id": "WTS033"
+      },
+      {
+        "count": 1,
+        "id": "WTS031"
+      },
+      {
+        "count": 1,
+        "id": "WTS038"
+      },
+      {
+        "count": 1,
+        "id": "WTS032"
+      }
+    ],
+    "Map": [
+      {
+        "count": 1,
+        "id": "WTS041"
+      },
+      {
+        "count": 1,
+        "id": "WTS039"
+      }
+    ]
+  }
+}
