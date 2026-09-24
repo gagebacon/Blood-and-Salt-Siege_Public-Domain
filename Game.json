@@ -1,6 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
-    "menuBackgroundImage": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/82aed62ce97ce8b0a1585724b18be1425f719edb/Card%20Gallery/__Card%20Back_Mercenaries.png",
+    "menuBackgroundImage": "https://raw.githubusercontent.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/82aed62ce97ce8b0a1585724b18be1425f719edb/Card%20Gallery/__Card%20Back_Mercenaries.png",
     "deckBuilding": {
         "mainFilters": [
             "class",
