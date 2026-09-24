@@ -1,6 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
-    "menuBackgroundImage": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png",
+    "menuBackgroundImage": "https://github.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/blob/82aed62ce97ce8b0a1585724b18be1425f719edb/Card%20Gallery/__Card%20Back_Mercenaries.png",
     "deckBuilding": {
         "mainFilters": [
             "class",
@@ -23,7 +23,10 @@
     },
     "deckRulesets": {
         "Constructed_Rules": {
-                "general": { "min": 18, "maxPerCard": 8 },
+                "general": { 
+                    "min": 18, 
+                    "max": 18, 
+                    "maxPerCard": 8 },
                 "categories": [
                 { "category": "Mercenary", "min": 8, "max": 8 },
                 { "category": "Asset", "min": 8, "max": 8 },
