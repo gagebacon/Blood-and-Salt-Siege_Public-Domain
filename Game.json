@@ -17,7 +17,8 @@
             },
             {
                 "title": "Pick-and-ban",
-                "gameplay": "SearchandDestroy"
+                "gameplay": "SearchandDestroy",
+                "deckRuleset": "PickandBanRules"
             }
         ],
         "deckRulesets": {
@@ -41,6 +42,18 @@
                     "category": "Sideboard", "min": 0, "max": 8 
                 }
                 ]
+            },
+            "PickandBanRules": {
+                "general": { 
+                    "min": 24, 
+                    "max": 24, 
+                    "maxPerCard": 1
+                },
+                "categories": [
+                { 
+                    "category": "Mercenary", "min": 24, "max": 24 
+                }
+                ]
             }
         }
     },
@@ -49,7 +62,7 @@
             "mulligan": {
                 "triggeredByButton": true,
                 "info": "Choose your loadout options.",
-                "startingHandSize": 18,
+                "startingHandSize": 24,
                 "mulliganCount": {
                     "max": 1
                 },
