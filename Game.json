@@ -23,7 +23,7 @@
         "deckRulesets": {
             "ConstructedRules": {
                 "general": { 
-                    "min": 18, 
+                    "min": 15, 
                     "max": 18, 
                     "maxPerCard": 8 
                 },
