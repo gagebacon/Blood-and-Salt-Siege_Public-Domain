@@ -13,14 +13,14 @@
             {
                 "title": "Constructed",
                 "gameplay": "SearchandDestroy",
-                "deckRulesets": "ConstructedRules"
+                "deckRuleset": "ConstructedRules"
             },
             {
                 "title": "Pick-and-ban",
                 "gameplay": "SearchandDestroy"
             }
         ],
-        "deckRulesets": {
+        "deckRuleset": {
             "ConstructedRules": {
                 "general": { 
                     "min": 18, 
