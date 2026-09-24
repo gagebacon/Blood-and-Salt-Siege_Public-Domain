@@ -13,28 +13,37 @@
             {
                 "title": "Constructed",
                 "gameplay": "SearchandDestroy",
-                "deckRulesets": "Constructed_Rules"
+                "deckRulesets": "ConstructedRules"
             },
             {
                 "title": "Pick-and-ban",
                 "gameplay": "SearchandDestroy"
             }
-        ]
-    },
-    "deckRulesets": {
-        "Constructed_Rules": {
+        ],
+        "deckRulesets": {
+            "ConstructedRules": {
                 "general": { 
                     "min": 18, 
                     "max": 18, 
-                    "maxPerCard": 8 },
+                    "maxPerCard": 8 
+                },
                 "categories": [
-                { "category": "Mercenary", "min": 8, "max": 8 },
-                { "category": "Asset", "min": 8, "max": 8 },
-                { "category": "Map", "min": 2, "max": 2 },
-                { "category": "Sideboard", "min": 0, "max": 8 }
-            ]
+                { 
+                    "category": "Mercenary", "min": 8, "max": 8 
+                },
+                { 
+                    "category": "Asset", "min": 8, "max": 8 
+                },
+                { 
+                    "category": "Map", "min": 2, "max": 2 
+                },
+                { 
+                    "category": "Sideboard", "min": 0, "max": 8 
+                }
+                ]
+            }
         }
-    },   
+    },
     "gameplay": {
         "SearchandDestroy": {
             "mulligan": {
