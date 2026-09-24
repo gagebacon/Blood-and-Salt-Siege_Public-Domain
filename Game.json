@@ -20,7 +20,7 @@
                 "gameplay": "SearchandDestroy"
             }
         ],
-        "deckRuleset": {
+        "deckRulesets": {
             "ConstructedRules": {
                 "general": { 
                     "min": 18, 
