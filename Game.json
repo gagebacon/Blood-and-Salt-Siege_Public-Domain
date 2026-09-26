@@ -563,7 +563,8 @@
                         "count": 1,
                         "destination": "Lane 3"
                         }
-                ],
+                ]
+            },
             "mulligan": {
                 "triggeredByButton": true,
                 "info": "Choose your loadout options.",
@@ -579,7 +580,7 @@
             },
             "newTurn": {
                 "drawOnStart": false,
-                "sharedTurn": false,
+                "sharedTurn": true,
                 "drawPerTurn": 0
             },
             "draggableTokens": [
@@ -943,8 +944,7 @@
                 }
             }
         }
-    }
-},
+    },
     "defaultResources": {
         "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
         },
