@@ -440,6 +440,7 @@
         "PickandBanSearchandDestroy": {
             "beforeGameStart": {
                 "initialBoardSetup": {
+                    "sharedTurn": true,
                     "0": [
                         {
                         "createCardId": "WTS001",
