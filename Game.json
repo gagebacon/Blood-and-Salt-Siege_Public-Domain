@@ -440,7 +440,6 @@
         "PickandBanSearchandDestroy": {
             "beforeGameStart": {
                 "initialBoardSetup": {
-                    "sharedTurn": true,
                     "0": [
                         {
                         "createCardId": "WTS001",
@@ -580,7 +579,7 @@
             },
             "newTurn": {
                 "drawOnStart": false,
-                "sharedTurn": true,
+                "sharedTurn": false,
                 "drawPerTurn": 0
             },
             "draggableTokens": [
