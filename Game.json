@@ -1,6 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
-    "menuBackgroundImage": "https://raw.githubusercontent.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/82aed62ce97ce8b0a1585724b18be1425f719edb/Card%20Gallery/__Card%20Back_Mercenaries.png",
+    "menuBackgroundImage": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png",
     "deckBuilding": {
         "mainFilters": [
             "class",
@@ -13,56 +13,31 @@
             {
                 "title": "Constructed",
                 "gameplay": "SearchandDestroy",
-                "deckRuleset": "ConstructedRules"
+                "deckRulesets": "Constructed_Rules"
             },
             {
                 "title": "Pick-and-ban",
-                "gameplay": "SearchandDestroy",
-                "deckRuleset": "PickandBanRules"
+                "gameplay": "SearchandDestroy"
             }
-        ],
-        "deckRulesets": {
-            "ConstructedRules": {
-                "general": { 
-                    "min": 15, 
-                    "max": 18, 
-                    "maxPerCard": 8 
-                },
-                "categories": [
-                { 
-                    "category": "Mercenary", "min": 5, "max": 8 
-                },
-                { 
-                    "category": "Asset", "min": 8, "max": 8 
-                },
-                { 
-                    "category": "Map", "min": 2, "max": 2 
-                },
-                { 
-                    "category": "Sideboard", "min": 0, "max": 8 
-                }
-                ]
-            },
-            "PickandBanRules": {
-                "general": { 
-                    "min": 24, 
-                    "max": 24, 
-                    "maxPerCard": 1
-                },
-                "categories": [
-                { 
-                    "category": "Mercenary", "min": 24, "max": 24 
-                }
-                ]
-            }
-        }
+        ]
     },
+    "deckRulesets": {
+        "Constructed_Rules": {
+                "general": { "min": 18, "maxPerCard": 8 },
+                "categories": [
+                { "category": "Mercenary", "min": 8, "max": 8 },
+                { "category": "Asset", "min": 8, "max": 8 },
+                { "category": "Map", "min": 2, "max": 2 },
+                { "category": "Sideboard", "min": 0, "max": 11 }
+            ]
+        }
+    },   
     "gameplay": {
         "SearchandDestroy": {
             "mulligan": {
                 "triggeredByButton": true,
                 "info": "Choose your loadout options.",
-                "startingHandSize": 24,
+                "startingHandSize": 18,
                 "mulliganCount": {
                     "max": 1
                 },
