@@ -30,7 +30,7 @@
                 },
                 "categories": [
                 { 
-                    "category": "Mercenary", "min": 5, "max": 8 
+                    "category": "Mercenary", "min": 5, "max": 5 
                 },
                 { 
                     "category": "Asset", "min": 8, "max": 8 
