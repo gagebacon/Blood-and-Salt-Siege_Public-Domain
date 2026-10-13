@@ -1,13 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
     "menuBackgroundImage": "https://raw.githubusercontent.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/82aed62ce97ce8b0a1585724b18be1425f719edb/Card%20Gallery/__Card%20Back_Mercenaries.png",
-    "defaultResources": {
-        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
-        },
-    "cards": {
-        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
-        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
-        },
     "deckBuilding": {
         "mainFilters": [
             "class",
@@ -24,7 +17,7 @@
             },
             {
                 "title": "Pick-and-ban",
-                "gameplay": "PickandBan",
+                "gameplay": "SearchandDestroy",
                 "deckRuleset": "PickandBanRules"
             }
         ],
@@ -78,45 +71,24 @@
                         "min": 8
                     }
                 }
-            },
-            "newTurn": {
-                "drawOnStart": false,
-                "sharedturn": true,
-                "drawPerTurn": 0
-                }
+            }
         },
         "PickandBan": {
             "beforeGameStart": {
-                "initialBoardSetup": {
-                    "0": [
-                        { "createCardId": "WTS001", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS002", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS003", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS004", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS005", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS006", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS007", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS008", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS009", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS010", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS011", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS012", "count": 1, "destination": "lane 3" }
-                    ],
-                    "1": [
-                        { "createCardId": "WTS013", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS014", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS015", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS016", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS017", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS018", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS019", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS020", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS021", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS022", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS023", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS024", "count": 1, "destination": "lane 1" }
-                    ]
-                }
+                "initialBoardSetup": [
+                    { "createCardId": "WTS001", "count": 1, "destination": "lane 1" },
+                    { "createCardId": "WTS002", "count": 1, "destination": "lane 1" },
+                    { "createCardId": "WTS003", "count": 1, "destination": "lane 1" },
+                    { "createCardId": "WTS004", "count": 1, "destination": "lane 1" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 2" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 2" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 2" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 2" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 3" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 3" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 3" },
+                    { "createCardId": "WTS005", "count": 1, "destination": "lane 3" }
+                ]
             },
             "mulligan": {
                 "triggeredByButton": true,
@@ -133,10 +105,9 @@
             },
             "newTurn": {
                 "drawOnStart": false,
-                "sharedturn": true,
+                "sharedTurn": true,
                 "drawPerTurn": 0
-                }
-        },
+            },
             "draggableTokens": [
                 {
                   "id": "ArmorDmgCounter",
@@ -210,42 +181,42 @@
             ],
             "sections": {
                 "sharedZone": {
-                    "height": 11,
-                    "layout": {
-                        "direction": "row",
-                        "content": [
-                            {
-                                "section": "Map",
-                                "style": {
-                                    "width": "1vh"
-                                }
-                            },
-                            {
-                                "section": "Lane_1_Walls",
-                                "style": {
-                                    "width": "33vh",
-                                    "marginLeft": "auto"
-                                }
-                            },
-                            {
-                                "section": "Lane_2_Walls",
-                                "style": {
-                                    "width": "33vh",
-                                    "alignment": "CENTER"
-                                }
-                            },
-                            {
-                                "section": "Lane_3_Walls",
-                                "style": {
-                                    "width": "33vh",
-                                    "alignment": "END",
-                                    "marginRight": "auto"
-                                }
-                            }
-                        ]
+                "height": 11,
+                "layout": {
+                "direction": "row",
+                "content": [
+                    { 
+                    "section": "Map",
+                    "style": {
+                    "width": "1vh"
                     }
-                },
-                "customSections": [
+                    },
+                    { 
+                    "section": "Lane_1_Walls",
+                    "style": {
+                    "width": "33vh",
+                    "marginLeft": "auto"
+                    }
+                    },
+                    { 
+                    "section": "Lane_2_Walls",
+                    "style": {
+                    "width": "33vh",
+                    "alignment": "CENTER"
+                    }
+                    }, 
+                    { 
+                    "section": "Lane_3_Walls",
+                    "style": {
+                    "width": "33vh",
+                    "alignment": "END",
+                    "marginRight": "auto"
+                    }
+                    }
+                ]
+            }
+        },
+            "customSections": [
                     "Stack",
                     "Map",
                     "Lane_1_Walls",
@@ -256,12 +227,12 @@
                     "Lane_2",
                     "Lane_3",
                     "Defuses_Zone",
-                    "Initiative_Slot",
+                    "Initiative Slot",
                     "Reaction_Slot_1",
                     "Reaction_Slot_2",
-                    "Casualty_Zone"
+                    "Casualty_Pile"
                 ],
-                "layout": {
+                "layout": {  
                     "direction": "row",
                     "isSymetricalForOpponents": true,
                     "content": [
@@ -283,9 +254,9 @@
                                     "section": "Initiative_Slot",
                                     "alignment": "CENTER",
                                     "style": {
-                                        "width": "22vh",
-                                        "marginLeft": "auto",
-                                        "marginRight": "auto"
+                                    "width": "22vh",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -300,9 +271,9 @@
                                     "section": "Reaction_Slot_1",
                                     "alignment": "CENTER",
                                     "style": {
-                                        "width": "22vh",
-                                        "marginLeft": "auto",
-                                        "marginRight": "auto"
+                                    "width": "22vh",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -317,9 +288,9 @@
                                     "section": "Reaction_Slot_2",
                                     "alignment": "CENTER",
                                     "style": {
-                                        "width": "22vh",
-                                        "marginLeft": "auto",
-                                        "marginRight": "auto"
+                                    "width": "22vh",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"
                                     }
                                 }
                             ]
@@ -333,7 +304,7 @@
                                 {
                                     "section": "Casualty_Zone",
                                     "isSymetricalForOpponents": true,
-                                    "style": {
+                                     "style": {
                                         "marginLeft": "auto",
                                         "width": "80%"
                                     }
@@ -342,7 +313,7 @@
                         }
                     ]
                 },
-                "autoPlayFromHand": {
+                 "autoPlayFromHand": {
                     "Mercenary": "Stack",
                     "Asset": "Stack",
                     "Map": "Stack",
@@ -496,5 +467,14 @@
                     }
                 }
             }
+        }
+    },
+    "defaultResources": {
+        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
+    },
+    "cards": {
+        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
+        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
+        }
     }
 }
