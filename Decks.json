@@ -1,10 +1,9 @@
-
 {
   "title": "Welcome to Siege",
   "id": "62a4fb1a-1621-4cd5-ab0a-ee8a0927537e",
   "cardCount": 15,
   "createdAt": "2026-09-24T21:25:05.402Z",
-  "lastModifiedAt": "2026-09-24T21:26:28.032Z",
+  "lastModifiedAt": "2026-10-13T18:03:47.134Z",
   "game": "Blood and Salt: Siege",
   "format": [
     "Constructed"
@@ -39,12 +38,16 @@
     ],
     "Asset": [
       {
-        "count": 3,
-        "id": "WTS034"
+        "count": 1,
+        "id": "WTS031"
       },
       {
-        "count": 1,
+        "count": 2,
         "id": "WTS027"
+      },
+      {
+        "count": 2,
+        "id": "WTS034"
       },
       {
         "count": 1,
@@ -52,15 +55,11 @@
       },
       {
         "count": 1,
-        "id": "WTS031"
+        "id": "WTS037"
       },
       {
         "count": 1,
-        "id": "WTS038"
-      },
-      {
-        "count": 1,
-        "id": "WTS032"
+        "id": "WTS036"
       }
     ],
     "Map": [
