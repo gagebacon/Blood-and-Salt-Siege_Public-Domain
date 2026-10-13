@@ -1,13 +1,6 @@
 {
     "name": "Blood and Salt: Siege",
     "menuBackgroundImage": "https://raw.githubusercontent.com/gagebacon/Blood-and-Salt-Siege_Public-Domain/82aed62ce97ce8b0a1585724b18be1425f719edb/Card%20Gallery/__Card%20Back_Mercenaries.png",
-        "defaultResources": {
-        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
-        },
-    "cards": {
-        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
-        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
-        },
     "deckBuilding": {
         "mainFilters": [
             "class",
@@ -24,7 +17,7 @@
             },
             {
                 "title": "Pick-and-ban",
-                "gameplay": "PickandBan",
+                "gameplay": "SearchandDestroy",
                 "deckRuleset": "PickandBanRules"
             }
         ],
@@ -36,7 +29,7 @@
                     "maxPerCard": 8 
                 },
                 "categories": [
-                { 
+                {
                     "category": "Mercenary", "min": 5, "max": 5 
                 },
                 { 
@@ -83,60 +76,7 @@
                 "drawOnStart": false,
                 "sharedTurn": true,
                 "drawPerTurn": 0
-            }
-        },
-        "PickandBan": {
-            "mulligan": {
-                "triggeredByButton": true,
-                "info": "Choose your loadout options.",
-                "startingHandSize": 24,
-                "mulliganCount": {
-                    "max": 1
-                },
-                "mulliganCycle": {
-                    "selectionRange": {
-                        "min": 8
-                    }
-                }
             },
-            "beforeGameStart": {
-                "initialBoardSetup": {
-                    "0": [
-                        { "createCardId": "WTS001", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS002", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS003", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS004", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS005", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS006", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS007", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS008", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS009", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS010", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS011", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS012", "count": 1, "destination": "lane 3" }
-                    ],
-                    "1": [
-                        { "createCardId": "WTS013", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS014", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS015", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS016", "count": 1, "destination": "lane 3" },
-                        { "createCardId": "WTS017", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS018", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS019", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS020", "count": 1, "destination": "lane 2" },
-                        { "createCardId": "WTS021", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS022", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS023", "count": 1, "destination": "lane 1" },
-                        { "createCardId": "WTS024", "count": 1, "destination": "lane 1" }
-                    ]
-                }
-            },
-            "newTurn": {
-                "drawOnStart": false,
-                "sharedTurn": true,
-                "drawPerTurn": 0
-            }
-        },
             "draggableTokens": [
                 {
                   "id": "ArmorDmgCounter",
@@ -497,4 +437,12 @@
                 }
             }
         }
-    }
+    },
+    "defaultResources": {
+        "decksUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Decks.json"
+    },
+    "cards": {
+        "dataUrl": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Cards.json",
+        "cardBack": "https://gagebacon.github.io/Blood-and-Salt-Siege_Public-Domain/Card%20Gallery/__Card%20Back_Mercenaries.png"
+        }
+}
