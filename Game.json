@@ -129,7 +129,6 @@
         },
             "newTurn": {
                 "drawOnStart": false,
-                "sharedTurn": true,
                 "drawPerTurn": 0
             },
             "draggableTokens": [
