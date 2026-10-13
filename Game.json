@@ -24,7 +24,7 @@
             },
             {
                 "title": "Pick-and-ban",
-                "gameplay": "SearchandDestroy",
+                "gameplay": "PickandBan",
                 "deckRuleset": "PickandBanRules"
             }
         ],
